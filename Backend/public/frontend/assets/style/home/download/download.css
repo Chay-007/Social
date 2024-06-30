@@ -1,0 +1,77 @@
+.dowload-app-section{
+    background-color: #ffffffc2;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+    position: relative;
+}
+
+.dowload-app-section .sec-1 .mobile{
+    width: 60%;
+    height: auto;
+}
+.dowload-app-section .sec-2 .download-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #000;
+}
+.dowload-app-section .sec-2 .sub-title{
+    font-weight: normal;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.dowload-app-section .sec-2  .listt{
+    padding: 15px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000;
+}
+.dowload-app-section .sec-2  .gpay-img{
+    width: 189px;
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .dowload-app-section .sec-2 .download-title {
+        font-size: 20px;
+    }  
+    .dowload-app-section .sec-2 .sub-title {
+        font-size: 10px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    } 
+    .dowload-app-section .sec-2  .listt {
+        padding: 15px;
+        font-size: 13px;
+    }
+    .dowload-app-section .sec-2  .gpay-img {
+        width: 85px;
+    }
+    .dowload-app-section .sec-2  .listt {
+        margin-bottom: 0px;
+    }
+    .dowload-app-section .sec-1 .mobile {
+        width: 100%;
+    }
+    .dowload-app-section {
+        padding: 40px 0px;
+    }
+    .dowload-app-section .sec-2  .listt {
+        padding: 5px;
+        font-size: 9px;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px){
+    .dowload-app-section .sec-2 .download-title {
+        font-size: 30px;
+}
+.dowload-app-section .sec-1 .mobile {
+    width: 100%;
+}
+}
+
+@media (min-width:993px) and (max-width:1200px){
+
+}

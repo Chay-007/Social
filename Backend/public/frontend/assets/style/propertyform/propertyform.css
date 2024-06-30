@@ -1,0 +1,1143 @@
+.step-form {
+    margin: 5% 10% 5% 10%;
+    position: relative;
+    background-color: #fff;
+    padding: 3% 0%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.step-form .step {
+    display: none;
+    /* padding: 0px 10%; */
+}
+.step-form .step.active {
+    display: block;
+}
+.step-form .all-page {
+    padding: 0px 20%;
+}
+.step-form .two-page {
+    padding: 0px 13%;
+}
+
+/* buttons css start */
+.step-form .button-container .save-btn {
+    background-color: white;
+    border: 2px solid #db0000;
+    color: black;
+    border-radius: 25px;
+    padding: 8px 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.step-form .button-container .save-btn:hover {
+    background-color: #db0000;
+    color: white;
+}
+.upper-butns {
+    margin: 0px 9%;
+}
+.upper-butns .header-content {
+    font-size: 20px;
+    font-weight: bold;
+}
+.upper-butns .button-container .back-btn {
+    background-color: white;
+    border: 2px solid #db0000;
+    color: black;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.step-form .button-container .back-btn:hover {
+    background-color: #db0000;
+    color: white;
+}
+.step-form .changable-buttons {
+    justify-content: center;
+    background: #f6f9ff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 3px #00000021;
+    border-radius: 5px;
+    opacity: 1;
+    width: 100%;
+    position: absolute;
+    padding: 15px 35px;
+    top: -5%;
+    display: flex;
+}
+.step-form .changable-buttons .property-btns {
+    background-color: #ffffff;
+    padding: 10px 27px;
+    border-radius: 25px;
+    border: 2px solid #d4d4d4;
+    color: grey;
+    font-size: 14px;
+}
+.step-form .changable-buttons .separator {
+    font-size: 30px;
+    margin-top: -1%;
+    color: #003ca5;
+}
+
+.step-form .property-btns.completed-btn {
+    background-color: #fff2f2;
+    border: 2px solid #e02626;
+    color: black;
+    font-weight: 600;
+}
+.step-form .property-btns.active-btn {
+    background-color: #ffffff;
+    border: 2px solid #db0000;
+    color: black;
+    font-weight: 600;
+}
+
+/* common css start */
+.step-form .form-pages {
+    margin: 5% 0%;
+}
+.step-form .form-pages .form-group .form-label {
+    padding: 20px 0px 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.step-form .form-pages .form-group .form-select {
+    border-radius: 25px;
+    font-size: 12px;
+}
+.step-form .first-col {
+    margin-right: 15%;
+}
+.step-form .form-pages .star {
+    color: red;
+    font-weight: 500;
+}
+.step-form .form-pages .form-group option {
+    font-size: 12px;
+    color: black;
+}
+.step-form .form-pages .form-group option:hover {
+    color: red !important;
+}
+.step-form .form-pages .form-group .block {
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.step-form .form-pages .form-group .form-control {
+    font-size: 12px;
+    border-radius: 25px;
+    border: 1px solid #D4D4D4
+}
+.step-form .form-pages .form-group .input-group-text {
+    font-size: 12px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 25px;
+    background-color: white;
+    border-left: none;
+    font-weight: 500;
+}
+.step-form .form-pages .form-group input.form-control.form-line {
+    border-left: none;
+    border-right: none;
+}
+
+/* second stape css start */
+.step-form .form-pages .form-check-inline {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 14px;
+}
+.step-form .form-pages .radio-btn .form-check-input:checked {
+    border: 1px solid black;
+    background: radial-gradient(circle, black 0%, black 44%, white 59%, white 100%);
+}
+.step-form .form-pages .check-btn .form-check-input {
+    height: 17px;
+    width: 17px;
+}
+.step-form .form-pages .check-btn .form-check-input:checked {
+    background-color: red;
+    border-color: red;
+}
+.step-form .form-pages .form-check-input:focus {
+    box-shadow: none;
+}
+
+/* third step css */
+
+.step-form .form-pages .custum-box {
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 5px 12px 5px 25px;
+    margin: 0px 35% 0px 0px;
+    width: 115px;
+}
+.step-form .form-pages .increment {
+    background-color: grey;
+    color: white;
+    padding: 0px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.step-form .form-pages .increment:hover {
+    background-color: red;
+}
+.step-form .form-pages p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.step-form .form-pages .check-box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-form .form-pages label {
+    font-size: 12px;
+}
+
+.step-form .form-pages .iti--separate-dial-code .iti__selected-flag {
+    background-color: #fff;
+    border-radius: 25px;
+    /* margin: 0px 5px; */
+    /* padding: 5px 0px; */
+    width: 79px;
+    font-size: 12px;
+}
+.step-form .form-pages .iti-mobile .iti__country-list {
+    max-height: 100%;
+    width: 20%;
+    /* min-width: 69px; */
+    height: 100px;
+    /* margin-top: 37%; */
+    top: 50%;
+}
+
+/* 
+fifth step css */
+.step-form .form-pages .add-photos-content {
+    background: #f8f8f8 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /* margin: 0px -10%; */
+    position: relative;
+    padding-top: 25px;
+}
+.step-form .form-pages .add-photos-content h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.step-form .form-pages .camera-icon {
+    font-size: 55px;
+    color: grey;
+}
+
+.step-form .form-pages .line {
+    background-color: red;
+    height: 50px;
+    width: 2px;
+    margin-right: 5%;
+}
+.step-form .form-pages .add-photos-btn {
+    background-color: #003ca5;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 65px;
+    border-radius: 25px;
+    margin: 20px 10px 60px 10px;
+}
+.step-form .form-pages .or-text-container {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+.step-form .form-pages .or-text {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 8px 8px;
+    border-radius: 5px;
+    width: 45px;
+    font-size: 18px;
+}
+.step-form .form-pages .uplod-text {
+    text-align: center;
+    margin: 38px 5px 10px 5px;
+}
+.step-form .form-pages .uplod-text .inner-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+.step-form .form-pages .wp-img-container {
+    background-color: #d6e4ff;
+    padding: 14px 10px;
+    border-radius: 5px;
+}
+.step-form .form-pages .wp-img-container .wpimg {
+    width: 45px;
+    height: 45px;
+}
+.step-form .form-pages .no-text {
+    background-color: #f6f9ff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.step-form .form-pages .upload-container {
+    background: #f6f9ff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 3px #00000021;
+    border-radius: 5px;
+    opacity: 1;
+}
+.step-form .form-pages .mail-img-container {
+    background-color: #d6e4ff;
+    padding: 16px 10px;
+    border-radius: 5px;
+}
+.step-form .form-pages .mail-img-container .mailimg {
+    width: 25px;
+    height: 20px;
+}
+.step-form .form-pages .mail-img-container .circle {
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: white;
+}
+
+/* step 6 css start */
+.step-form .step-six .detail-block {
+    background-color: #f8f8f8;
+    padding: 25px 25px 5px 35px;
+}
+.step-form .step-six .detail-block .flex-buttons {
+    display: flex;
+}
+.step-form .step-six .step-six-btn {
+    background-color: #fff2f2;
+    border: 2px solid #db0000;
+    border-radius: 25px;
+    font-size: 13px;
+    margin: 10px 5px;
+}
+.step-form .step-six p.heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+.step-form .step-six p.content {
+    font-size: 15px;
+    font-weight: 500;
+}
+.step-form .step-six .painting-img-container .paintingimg {
+    width: 100%;
+}
+.step-form .step-six .form-group .form-label {
+    padding: 20px 0px 0px 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.step-form .step-six .time-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.step-form .step-six .form-group .form-select {
+    border-radius: 25px;
+}
+.step-form .step-six .form-group option {
+    font-size: 12px;
+    color: black;
+}
+.step-form .step-six input#appt {
+    border-radius: 25px;
+    padding: 5px 25px;
+    border: 1px solid grey;
+}
+.step-form .step-six .check-btn .form-check-input {
+    height: 20px;
+    width: 20px;
+}
+.step-form .step-six label.form-check-label {
+    color: grey;
+    font-size: 12px;
+}
+.step-form .step-six .check-btn .form-check-input:checked {
+    background-color: red;
+    border-color: red;
+}
+.step-form .step-six .time-content {
+    margin: 3% 1% 14% 1%;
+}
+.step-form .step-six .margin-sec {
+    margin-right: 10%;
+}
+.step-form .step-six .check-div {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+.step-form .form-pages .select2-container .select2-selection--multiple {
+    min-height: 33px;
+    height: 25px;
+   border-radius: 25px;
+   border: 1px solid #D4D4D4;
+}
+.step-form .form-pages .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: 1px solid #D4D4D4;
+    outline: 0;
+}
+.step-form .form-pages .select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.step-form .form-pages  .select2-container .select2-search--inline .select2-search__field {
+    
+    margin: 0px 3px;
+    padding: 0px 8px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.step-form .form-pages .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    list-style: none;
+    font-size: 10px;
+    padding: 4px 12px !important;
+    color: #000 !important;
+    margin: 2px 0px 0px 0px;
+}
+.step-form .form-pages .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #ffffff;
+    color: black;
+    font-size: 12px;
+}
+.step-form .form-pages .select2-results__option {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.step-form .form-pages .select2-results__option:hover {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    color: #DB0000 !important;
+}
+
+.step-form .form-pages  .select2-container {
+    width: 100% !important;
+}
+.step-form .form-pages .form-select {
+   
+    background-image: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query start */
+@media (max-width: 320px) {
+    .step-form .form-pages .upload-container {
+        margin: 10px;
+    }
+    .step-form .form-pages .wp-img-container .wpimg {
+        width: 20px;
+        height: 20px;
+    }
+    .step-form .form-pages .no-text {
+        font-size: 12px;
+    }
+    .step-form .form-pages .mail-img-container .mailimg {
+        width: 15px;
+        height: 15px;
+    }
+    .step-form .form-pages .add-photos-content h4 {
+        font-size: 10px;
+    }
+    .step-form .form-pages p {
+        font-size: 8px;
+    }
+    .step-form .form-pages .camera-icon {
+        font-size: 40px;
+    }
+    .step-form .form-pages .add-photos-btn {
+        font-size: 10px;
+        margin: 5px 10px 25px 10px;
+        padding: 8px 15px;
+    }
+    .step-form .form-pages .add-photos-content {
+        padding-top: 10px;
+    }
+    .step-form .form-pages .or-text {
+        width: 40px;
+        font-size: 14px;
+    }
+    .step-form .form-pages .or-text-container {
+        left: 38%;
+    }
+    .step-form .form-pages .uplod-text .inner-text {
+        font-size: 12px;
+    }
+
+    /* buttons css */
+    .step-form .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+    .step-form .button-container .save-btn {
+        border: 2px solid #db0000;
+
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    /* common css */
+    .step-form .form-pages .form-group .form-select {
+        font-size: 9px;
+    }
+    .step-form .form-pages .form-group .form-label {
+        font-size: 10px;
+    }
+    .step-form .form-pages .form-group .block {
+        border-radius: 25px;
+        font-size: 9px;
+    }
+    .step-form .form-pages p {
+        font-size: 10px;
+    }
+
+    /* six xtep css */
+    .step-form .step-six p.heading {
+        font-size: 12px;
+    }
+    .step-form .step-six p.content {
+        font-size: 10px;
+    }
+    .step-form .step-six .check-div {
+        font-size: 10px;
+    }
+    .step-form .step-six .step-six-btn {
+        font-size: 10px;
+    }
+    .step-form .step-six .detail-block .flex-buttons {
+        display: inline;
+    }
+    .step-form .step-six .form-group .form-label {
+        font-size: 10px;
+    }
+    .step-form .step-six input#appt {
+        padding: 5px 15px;
+    }
+    .step-form .form-pages .custum-box {
+        padding: 5px;
+        margin: 0px 35% 0px 0px;
+        width: 90px;
+    }
+    .step-form .all-page {
+        padding: 0px 10%;
+    }
+    .step-form .two-page {
+        padding: 0px 7%;
+    }
+    /* upperside red buttons css */
+    .step-form .changable-buttons {
+        width: 100%;
+        justify-content: left;
+        overflow-x: scroll;
+
+        top: -4%;
+    }
+
+    .step-form .changable-buttons .separator {
+        margin: -12px 4px 0px 48px;
+    }
+    .step-form .changable-buttons .property-btns {
+        width: 162%;
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .upper-butns .header-content {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .upper-butns .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .upper-butns {
+        margin: 50px 9%;
+    }
+    .step-form .step {
+        display: none;
+        /* padding: 0px 10%; */
+        padding-top: 10%;
+    }
+    .step-form {
+        margin: 5% 5%;
+    }
+    .step-form .changable-buttons .separator {
+        margin-top: -2%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .step-form .form-pages .upload-container {
+        margin: 10px;
+    }
+    .step-form .form-pages .wp-img-container .wpimg {
+        width: 20px;
+        height: 20px;
+    }
+    .step-form .form-pages .no-text {
+        font-size: 12px;
+    }
+    .step-form .form-pages .mail-img-container .mailimg {
+        width: 15px;
+        height: 15px;
+    }
+    .step-form .form-pages .mail-img-container {
+        padding: 10px 10px;
+    }
+    .step-form .form-pages .wp-img-container {
+        padding: 10px 10px;
+    }
+    .step-form .form-pages .add-photos-content h4 {
+        font-size: 10px;
+    }
+    .step-form .form-pages p {
+        font-size: 8px;
+    }
+    .step-form .form-pages .camera-icon {
+        font-size: 40px;
+    }
+    .step-form .form-pages .add-photos-btn {
+        font-size: 10px;
+        margin: 5px 10px 25px 10px;
+        padding: 8px 15px;
+    }
+    .step-form .form-pages .add-photos-content {
+        padding-top: 10px;
+    }
+    .step-form .form-pages .or-text {
+        width: 40px;
+        font-size: 14px;
+    }
+    .step-form .form-pages .or-text-container {
+        left: 38%;
+    }
+    .step-form .form-pages .uplod-text .inner-text {
+        font-size: 12px;
+    }
+    /* buttons css */
+    .step-form .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+    .step-form .button-container .save-btn {
+        border: 2px solid #db0000;
+
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    /* common css */
+    .step-form .form-pages .form-group .form-select {
+        font-size: 9px;
+    }
+    .step-form .form-pages .form-group .form-label {
+        font-size: 10px;
+    }
+    .step-form .form-pages .form-group .block {
+        border-radius: 25px;
+        font-size: 9px;
+    }
+    .step-form .form-pages p {
+        font-size: 10px;
+    }
+    /* six xtep css */
+    .step-form .step-six p.heading {
+        font-size: 12px;
+    }
+    .step-form .step-six p.content {
+        font-size: 10px;
+    }
+    .step-form .step-six .check-div {
+        font-size: 10px;
+    }
+    .step-form .step-six .step-six-btn {
+        font-size: 10px;
+    }
+    .step-form .step-six .detail-block .flex-buttons {
+        display: inline;
+    }
+    .step-form .step-six .form-group .form-label {
+        font-size: 10px;
+    }
+    .step-form .step-six input#appt {
+        padding: 5px 10px;
+    }
+    .step-form .form-pages .custum-box {
+        border: 1px solid grey;
+        border-radius: 25px;
+        padding: 5px 5px 5px 10px;
+        margin: 0px 0% 0px 0px;
+        width: 100px;
+    }
+    .step-form .form-pages .custum-box {
+        padding: 5px;
+        margin: 0px 35% 0px 0px;
+        width: 90px;
+    }
+    .step-form .all-page {
+        padding: 0px 10%;
+    }
+    .step-form .two-page {
+        padding: 0px 7%;
+    }
+
+    /* upperside red buttons css */
+    .step-form .changable-buttons {
+        width: 100%;
+        justify-content: left;
+        overflow-x: scroll;
+        top: -4%;
+        scroll-behavior: smooth;
+    }
+
+    .step-form .changable-buttons .separator {
+        margin: -12px 4px 0px 48px;
+    }
+    .step-form .changable-buttons .property-btns {
+        width: 162%;
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .upper-butns .header-content {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .upper-butns .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .upper-butns {
+        margin: 50px 9%;
+    }
+    .step-form .step {
+        display: none;
+        /* padding: 0px 10%; */
+        padding-top: 10%;
+    }
+    .step-form {
+        margin: 5% 5%;
+    }
+    .step-form .changable-buttons .separator {
+        margin-top: -2%;
+    }
+}
+@media (min-width: 481px) and (max-width: 575px) {
+    .step-form .form-pages .upload-container {
+        margin: 10px;
+    }
+    .step-form .form-pages .wp-img-container .wpimg {
+        width: 20px;
+        height: 20px;
+    }
+    .step-form .form-pages .no-text {
+        font-size: 11px;
+    }
+    .step-form .form-pages .mail-img-container .mailimg {
+        width: 15px;
+        height: 15px;
+    }
+    .step-form .form-pages .mail-img-container {
+        padding: 10px 10px;
+    }
+    .step-form .form-pages .wp-img-container {
+        padding: 10px 10px;
+    }
+    .step-form .form-pages .add-photos-content h4 {
+        font-size: 10px;
+    }
+    .step-form .form-pages p {
+        font-size: 8px;
+    }
+    .step-form .form-pages .camera-icon {
+        font-size: 40px;
+    }
+    .step-form .form-pages .add-photos-btn {
+        font-size: 10px;
+        margin: 5px 10px 25px 10px;
+        padding: 8px 15px;
+    }
+    .step-form .form-pages .add-photos-content {
+        padding-top: 10px;
+    }
+    .step-form .form-pages .or-text {
+        width: 40px;
+        font-size: 14px;
+    }
+    .step-form .form-pages .or-text-container {
+        left: 38%;
+    }
+    .step-form .form-pages .uplod-text .inner-text {
+        font-size: 12px;
+    }
+    /* buttons css */
+    .step-form .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+    .step-form .button-container .save-btn {
+        border: 2px solid #db0000;
+
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    /* common css */
+    .step-form .form-pages .form-group .form-select {
+        font-size: 9px;
+    }
+    .step-form .form-pages .form-group .form-label {
+        font-size: 12px;
+    }
+    .step-form .form-pages .form-group .block {
+        border-radius: 25px;
+        font-size: 9px;
+    }
+    .step-form .form-pages p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /* six xtep css */
+    .step-form .step-six p.heading {
+        font-size: 12px;
+    }
+    .step-form .step-six p.content {
+        font-size: 10px;
+    }
+    .step-form .step-six .check-div {
+        font-size: 8px;
+    }
+    .step-form .step-six .step-six-btn {
+        font-size: 9px;
+    }
+    .step-form .step-six .form-group .form-label {
+        font-size: 12px;
+    }
+    .step-form .all-page {
+        padding: 0px 10%;
+    }
+    .step-form .two-page {
+        padding: 0px 7%;
+    }
+    /* upperside red buttons css */
+    .step-form .changable-buttons {
+        width: 100%;
+        justify-content: left;
+        overflow-x: scroll;
+
+        top: -4%;
+        scroll-margin-left: 50px;
+    }
+
+    .step-form .changable-buttons .separator {
+        margin: -12px 4px 0px 48px;
+    }
+    .step-form .changable-buttons .property-btns {
+        width: 162%;
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .upper-butns .header-content {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .upper-butns .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .upper-butns {
+        margin: 50px 9%;
+    }
+    .step-form .step {
+        display: none;
+        /* padding: 0px 10%; */
+        padding-top: 10%;
+    }
+    .step-form {
+        margin: 5% 5%;
+    }
+    .step-form .changable-buttons .separator {
+        margin-top: -2%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .step-form .form-pages .upload-container {
+        margin: 10px;
+    }
+    .step-form .form-pages .add-photos-content h4 {
+        font-size: 10px;
+    }
+    .step-form .form-pages p {
+        font-size: 8px;
+    }
+    .step-form .form-pages .camera-icon {
+        font-size: 40px;
+    }
+    .step-form .form-pages .add-photos-btn {
+        font-size: 10px;
+        margin: 5px 10px 25px 10px;
+        padding: 8px 15px;
+    }
+    .step-form .form-pages .add-photos-content {
+        padding-top: 10px;
+    }
+    .step-form .form-pages .or-text {
+        width: 40px;
+        font-size: 14px;
+    }
+    .step-form .form-pages .or-text-container {
+        left: 38%;
+    }
+    /* buttons css */
+    .step-form .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+    .step-form .button-container .save-btn {
+        border: 2px solid #db0000;
+
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    /* common css */
+    .step-form .form-pages .form-group .form-select {
+        font-size: 9px;
+    }
+    .step-form .form-pages .form-group .form-label {
+        font-size: 12px;
+    }
+    .step-form .form-pages .form-group .block {
+        border-radius: 25px;
+        font-size: 9px;
+    }
+    .step-form .form-pages p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    /* six xtep css */
+    .step-form .step-six p.heading {
+        font-size: 14px;
+    }
+    .step-form .step-six p.content {
+        font-size: 12px;
+    }
+    .step-form .step-six .check-div {
+        font-size: 10px;
+    }
+    .step-form .step-six .step-six-btn {
+        font-size: 10px;
+    }
+    .step-form .step-six .form-group .form-label {
+        font-size: 12px;
+    }
+    .step-form .form-pages .custum-box {
+        margin: 0px 14% 0px 0px;
+    }
+    .step-form .all-page {
+        padding: 0px 10%;
+    }
+    .step-form .two-page {
+        padding: 0px 7%;
+    }
+    /* upperside red buttons css */
+    .step-form .changable-buttons {
+        width: 100%;
+        justify-content: left;
+        overflow-x: scroll;
+
+        top: -4%;
+    }
+
+    .step-form .changable-buttons .separator {
+        margin: -12px 4px 0px 48px;
+    }
+    .step-form .changable-buttons .property-btns {
+        width: 162%;
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .upper-butns .header-content {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .upper-butns .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .upper-butns {
+        margin: 50px 9%;
+    }
+    .step-form .step {
+        display: none;
+        /* padding: 0px 10%; */
+        padding-top: 10%;
+    }
+    .step-form {
+        margin: 5% 5%;
+    }
+    .step-form .changable-buttons .separator {
+        margin-top: -2%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .step-form .form-pages .wp-img-container .wpimg {
+        width: 35px;
+        height: 42px;
+    }
+    .step-form .form-pages .no-text {
+        font-size: 14px;
+    }
+    .step-form .form-pages .mail-img-container .mailimg {
+        width: 25px;
+        height: 25px;
+    }
+    .step-form .form-pages .add-photos-content h4 {
+        font-size: 14px;
+    }
+    .step-form .form-pages p {
+        font-size: 12px;
+    }
+    .step-form .form-pages .or-text-container {
+        left: 43%;
+    }
+    .step-form .all-page {
+        padding: 0px 10%;
+    }
+    .step-form .two-page {
+        padding: 0px 7%;
+    }
+    /* upperside red buttons css */
+    .step-form .changable-buttons {
+        width: 100%;
+        justify-content: left;
+        overflow-x: scroll;
+
+        top: -4%;
+    }
+
+    .step-form .changable-buttons .separator {
+        margin: -12px 4px 0px 48px;
+    }
+    .step-form .changable-buttons .property-btns {
+        width: 162%;
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .upper-butns .header-content {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .upper-butns .button-container .back-btn {
+        border: 2px solid #db0000;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .upper-butns {
+        margin: 50px 9%;
+    }
+    .step-form .step {
+        display: none;
+        /* padding: 0px 10%; */
+        padding-top: 5%;
+    }
+    .step-form {
+        margin: 5% 2%;
+    }
+    .step-form .changable-buttons .separator {
+        margin-top: -2%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .step-form .form-pages .no-text {
+        font-size: 17px;
+    }
+    .step-form .step-six .margin-sec {
+        margin-right: 3px;
+    }
+    .step-form .step-six input#appt {
+        padding: 5px 16px;
+    }
+    .step-form .changable-buttons .property-btns {
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+    .step-form .first-col {
+        margin-right: 0%;
+    }
+    .step-form .all-page {
+        padding: 0px 17%;
+    }
+    .step-form .changable-buttons .separator {
+        margin-top: -2%;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .step-form .changable-buttons .property-btns {
+        padding: 10px 15px;
+    }
+    .step-form .all-page {
+        padding: 0px 17%;
+    }
+    .step-form .step-six input#appt {
+        padding: 6px 15px;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+    .step-form .form-pages .upload-container {
+        width: 85%;
+    }
+}
+@media (min-width: 1601px) and (max-width: 1800px) {
+    .step-form .form-pages .upload-container {
+        width: 85%;
+    }
+}
+@media (min-width: 1801px) and (max-width: 2600px) {
+    .step-form .form-pages .upload-container {
+        width: 85%;
+    }
+}

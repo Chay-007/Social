@@ -1,0 +1,78 @@
+.blog-details .banner{
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.blog-details .banner-details .date{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #949494;
+}
+.blog-details .banner-details .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.blog-details .banner-details .sub-text{
+    font-size: 14px;
+    color: #5D5D5D;
+}
+
+@media (max-width:319px){
+    .blog-details .banner {
+        height: 100px;
+    }
+    .blog-details .banner-details .title {
+        font-size: 15px;
+    }
+    .blog-details .banner-details .sub-text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:320px) and (max-width:484px){
+    .blog-details .banner {
+        height: 150px;
+    }
+    .blog-details .banner-details .title {
+        font-size: 15px;
+    }
+    .blog-details .banner-details .sub-text {
+        font-size: 12px;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .blog-details .banner {
+        height: 200px;
+    }
+    .blog-details .banner-details .title {
+        font-size: 15px;
+    }
+    .blog-details .banner-details .sub-text {
+        font-size: 12px;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .blog-details .banner {
+        height: 250px;
+    }
+    .blog-details .banner-details .title {
+        font-size: 18px;
+    }
+    .blog-details .banner-details .sub-text {
+        font-size: 15px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px) and (max-width:1023px){
+
+}
+@media (min-width:1024px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}

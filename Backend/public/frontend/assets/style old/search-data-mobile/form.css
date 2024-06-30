@@ -1,0 +1,188 @@
+.mob-search-section{
+    width:100%;
+    position: relative;
+}
+.mob-search-section  .search-main-div{
+    background-color: #fff;
+    padding: 40px 10px;
+    border-radius: 6px;
+    margin-top: 0px;
+}
+
+
+
+.mob-search-section  .search-main-div  .select-main {
+    position: relative;
+}
+.mob-search-section  .search-main-div  .select-main .bulb-icon{
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 10px;
+}
+.mob-search-section  .search-main-div  .select-main .location-icon{
+    position: absolute;
+    width: 10px;
+    top: 12px;
+    left: 12px;
+}
+.mob-search-section  .search-main-div  .select-main .form-select{
+    padding-left: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.mob-search-section  .search-main-div  .search-btn-div{
+    text-align: center;
+}
+.mob-search-section  .search-main-div  .search-btn-div .search-btn {
+    background-color: #2eb0d1;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    width: auto;
+    padding: 5px 10px;
+}
+
+.mob-search-section  .search-main-div  .select-main {
+    position: relative;
+}
+.mob-search-section  .search-main-div  .select-main .bulb-icon{
+    position: absolute;
+    width: 12px;
+    top: 10px;
+    left: 10px;
+    z-index: 9;
+}
+.mob-search-section  .search-main-div  .select-main .location-icon{
+    position: absolute;
+    width: 10px;
+    top: 10px;
+    left: 12px;
+    z-index: 9;
+}
+
+.mob-search-section  .search-main-div  .search-btn-div{
+    text-align: left;
+}
+
+
+
+.mob-search-section  .select2-container {
+    width: 100% !important;
+}
+
+.mob-search-section  .select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: auto !important;
+    user-select: none;
+    -webkit-user-select: none;
+    padding: 4px 20px;
+    border-radius: 10px;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);    
+}
+.select2-container--default .select2-results>.select2-results__options {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0px 30px;
+    overflow-y: scroll;
+}
+
+
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable:hover {
+    background-color: #fff !important;
+    color: #2EB0D1 !important;
+    font-weight: 600 !important;
+}
+
+.mob-search-section  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.mob-search-section  .select2-results__option--selectable {
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.mob-search-section  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    display: none;
+}
+
+.select2-results__option{
+    position: relative;
+}
+
+.select2-results__option::before {
+    content: "";
+    width: 1px;
+    height: 22px;
+    background-color: #FC851D;
+    position: absolute;
+    left: -10px;
+}
+
+.select2-results__option:hover::before {
+    content: "";
+    width: 22px;
+    height: 1px;
+    background-color: #2eb0d1;
+    position: absolute;
+    left: -20px;
+    top: 17px;
+}
+
+.select2-container--default .select2-results__option--selected {
+    background-color: transparent !important;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #fff;
+    color: #000 !important;
+    font-weight: 400 !important;
+}
+
+.select2-dropdown {
+    z-index: 9 !important;
+}
+
+.select2-results__option{
+    color: #000 !important;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.mob-search-section .title-div{
+    margin-top:45px
+}
+.mob-search-section .title-div  .search-title{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.mob-search-section .title-div .search-title::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(#fc9118 0%, #fc582e 39.32%, #fc592d 82.01%, #fc7c1f 100%);
+    position: absolute;
+    top: -8px;
+    left: 45%;
+}

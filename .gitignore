@@ -1,0 +1,8 @@
+# React Native app folder
+**/node_modules
+
+# React Native app folder and backend 
+**/logs
+
+# PHP backend folder
+**/vendor

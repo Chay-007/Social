@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* package css started */
+.Package .card-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    gap: 5px; /* Adjust the gap between columns */
+}
+.all-main-content {
+    margin-top: 1%;
+}
+
+section.Package {
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+.Package .tag-line {
+    position: relative;
+    width: 100%;
+    height: 51px;
+}
+
+.Package .tag-line h1 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.Package .tag-line h1 span {
+    font-size: 20px;
+    color: #00399e;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.Package .tag-line img.close {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0px;
+    right: 0px;
+}
+
+.Package .main-tiles {
+    position: relative;
+    background: #ffe5e5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    height: 83px;
+}
+.Package .card {
+    border: none;
+    height: 475px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.Package .card .main-tiles .Gst-box-main {
+    text-align: -webkit-center;
+}
+
+.Package .card .main-tiles .Gst-box {
+    width: 160px;
+    height: 53px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #db0000;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.Package .card .main-tiles h1 {
+    font-size: 20px;
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.Package .card .main-tiles h1 span {
+    font-size: 20px;
+    color: #00399e;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.Package .card .main-tiles .Gst-box-main .Gst-box .content p {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: #000000;
+}
+
+.Package .card .main-tiles .Gst-box-main .Gst-box .content h1 {
+    line-height: 6px;
+    font-size: 20px;
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+/* card body css started */
+.Package .card .card-body .content-cards {
+    font-size: 15px;
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.Package .card .card-body {
+    padding: 45px 27px;
+    position: relative;
+}
+
+.Package .card-body .list .upto {
+    color: #131313;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.Package .card-body .list .text {
+    color: #131313;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.Package .card-body .list {
+    line-height: 7px;
+}
+.Package .card-body .subscribe {
+    left: 29%;
+    top: 95%;
+    position: absolute;
+}
+.Package .card-body .subscribe button.btn.btn-subscribe {
+    width: 171px;
+    height: 35px;
+    background: #003ca5;
+    border-radius: 24px;
+    opacity: 1;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins";
+    transition: margin-top 0.3s ease;
+    margin-top: 0;
+}
+
+.Package .card-body .subscribe button.btn.btn-subscribe:hover {
+    margin-top: -20px;
+}
+.Package .card .card-body .expert {
+    color: #003ca5;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.Package .card .card-body .points {
+    list-style-type: square;
+    padding-left: 10px;
+}
+.Package .card .card-body .points li {
+    transform: translate(10px, -12px);
+    color: #131313;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.Package .card .card-body .points li::marker {
+    color: #003ca5;
+}
+
+.Package p.last-tagline {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+}
+.Package p.last-tagline span {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: red;
+    text-align: center;
+}
+.Package .upto1 {
+    padding: 0px 35px;
+}
+.Package .plan-tag {
+    padding: 64px 0px 6px 0px;
+}
+/* package css end */
+
+/* media Query started */
+@media (min-width: 280px) and (max-width: 320px) {
+    .Package .tag-line h1 {
+        font-size: 14px;
+    }
+    .Package .tag-line h1 span {
+        font-size: 14px;
+    }
+    .Package .tag-line img.close {
+        height: 20px;
+        width: 20px;
+        top: 21px;
+    }
+    .Package .card .card-body .content-cards {
+        font-size: 13px;
+    }
+    .Package .card-body .list .text {
+        font-size: 12px;
+    }
+    .Package .card-body .list .upto {
+        font-size: 12px;
+    }
+    .Package .card {
+        height: auto;
+    }
+    .Package .card-body .subscribe button.btn.btn-subscribe {
+        width: 100%;
+        height: auto;
+    }
+    .Package .card-body .subscribe {
+        left: 34%;
+    }
+    .Package .card .main-tiles h1 {
+        font-size: 15px;
+    }
+    .Package .card .main-tiles h1 span {
+        font-size: 15px;
+    }
+    .Package .card .main-tiles .Gst-box-main .Gst-box .content h1 {
+        font-size: 15px;
+    }
+}
+@media (min-width: 321px) and (max-width: 485px) {
+    .Package .tag-line h1 {
+        font-size: 17px;
+    }
+    .Package .tag-line h1 span {
+        font-size: 17px;
+    }
+    .Package .tag-line img.close {
+        height: 20px;
+        width: 20px;
+    }
+    .Package .card-body .subscribe {
+        left: 40%;
+        top: 95%;
+    }
+    .Package .card .main-tiles h1 {
+        font-size: 17px;
+    }
+    .Package .card .main-tiles h1 span {
+        font-size: 17px;
+    }
+    .Package .card-body .subscribe button.btn.btn-subscribe {
+        width: 100%;
+        height: auto;
+    }
+    .Package .card {
+        height: auto;
+    }
+    .all-main-content {
+        margin-top: 4%;
+    }
+}
+@media (min-width: 486px) and (max-width: 575px) {
+    .Package .tag-line img.close {
+        height: 25px;
+        width: 25px;
+    }
+    .Package .card-body .subscribe {
+        left: 36%;
+    }
+    .all-main-content {
+        margin-top: 6%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .Package .tag-line img.close {
+        height: 25px;
+        width: 25px;
+    }
+    .Package .card-body .subscribe {
+        left: 36%;
+    }
+    .all-main-content {
+        margin-top: 5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .Package .card {
+        height: 538px;
+    }
+    .Package .card .card-body .content-cards {
+        font-size: 14px;
+    }
+    .Package .card .main-tiles h1 {
+        font-size: 16px;
+    }
+    .Package .card .main-tiles h1 span {
+        font-size: 16px;
+    }
+    .all-main-content {
+        margin-top: 3%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .Package .card {
+        height: 552px;
+    }
+    .Package .card-body .subscribe {
+        left: 24%;
+    }
+    .Package .card .main-tiles h1 {
+        font-size: 15px;
+    }
+    .Package .card .main-tiles h1 span {
+        font-size: 15px;
+    }
+    .Package .tag-line img.close {
+        height: 25px;
+        width: 25px;
+    }
+    .Package .card .card-body .points li {
+        text-align: justify;
+    }
+    .Package .card-body .subscribe {
+        left: 23%;
+    }
+    .all-main-content {
+        margin-top: 2%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .Package .card {
+        height: 550px;
+    }
+    .Package .card .main-tiles h1 {
+        font-size: 17px;
+    }
+    .Package .card .main-tiles h1 span {
+        font-size: 17px;
+    }
+}

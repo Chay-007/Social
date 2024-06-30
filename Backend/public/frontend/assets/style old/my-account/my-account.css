@@ -1,0 +1,354 @@
+.my-account .title{
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #F2F2F2;
+    padding: 18px;
+    border-radius: 5px;
+}
+.my-account .product-section-div{
+    border: 1px solid #707070;
+    padding: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.product-section-div .date{
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.product-section-div .price{
+ font-size: 18px;
+ font-weight: 600;
+}
+.product-section-div .items{
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-section-div .product-div .product{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.product-section-div .product-div .product .img-set{
+    width: 80%;
+}
+.product-div-li{
+    list-style: none;
+    margin: 10px;
+}
+.product-div-ul{
+    display: flex;
+    padding: 0px;
+}
+.stepper-div .order{
+    font-size: 18px;
+    font-weight: 600;
+    margin:20px 0px;
+}
+.product-buttons .buy ,.product-buttons .buy:hover{
+color: #fff;
+background-color: #000000;
+font-size: 14px;
+padding: 8px 50px;
+}
+.product-buttons .cancel, .product-buttons .cancel:hover{
+    color: #fff;
+    background-color: #F05340;
+    font-size: 14px;
+    padding: 8px 50px;
+}
+.product-buttons{
+    text-align: end;
+}
+.my-account .order-box{
+    box-shadow: 0px 0px 5px 0px #ccc;
+    padding: 20px;
+    border-radius: 6px;
+}
+.my-account .order-fafa-circle{
+    width: 78px;
+    height: 78px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-account .order-fafa-img{
+    width: 50%;
+}
+.order-text-div .order-p{
+    font-size: 16px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.my-account  a{
+    text-decoration: none;
+}
+.order-text-div  .align-fafa{
+    float: right;
+}
+
+.stepper-div .form-range{
+    width: 40%;
+}
+.range-text-div{
+    margin: 0px 95px 0px 0px;
+}
+.range-text-div .placed{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.range-text-div .date{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #F05340;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 3px solid #F05340;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #F05340;
+}
+
+@media (max-width:319px){
+    .range-text-div {
+        margin: 0px 10px 0px 0px;
+    }
+    .stepper-div .form-range {
+        width: 85%;
+    }
+    .product-buttons .buy, .product-buttons .buy:hover {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .product-buttons .cancel, .product-buttons .cancel:hover {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .my-account .title {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .my-account .order-fafa-circle {
+        width: 50px;
+        height: 50px;
+    }
+    .order-text-div .order-p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .product-section-div .items {
+        font-size: 16px;
+    }
+    .product-section-div .price {
+        font-size: 16px;
+    }
+    .product-section-div .date {
+        font-size: 10px;
+    }
+    .stepper-div .order {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    .range-text-div .placed {
+        font-size: 10px;
+    }
+    .product-section-div .product-div .product .img-set {
+        width: 60%;
+    }
+}
+
+@media (min-width:320px) and (max-width:484px){
+    .range-text-div {
+        margin: 0px 15px 0px 0px;
+    }
+    .stepper-div .form-range {
+        width: 70%;
+    }
+    .product-buttons .buy, .product-buttons .buy:hover {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .product-buttons .cancel, .product-buttons .cancel:hover {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .my-account .title {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .my-account .order-fafa-circle {
+        width: 50px;
+        height: 50px;
+    }
+    .order-text-div .order-p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .product-section-div .items {
+        font-size: 16px;
+    }
+    .product-section-div .price {
+        font-size: 16px;
+    }
+    .product-section-div .date {
+        font-size: 10px;
+    }
+    .stepper-div .order {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    .range-text-div .placed {
+        font-size: 10px;
+    }
+    .product-section-div .product-div .product .img-set {
+        width: 60%;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .range-text-div {
+        margin: 0px 45px 0px 0px;
+    }
+    .stepper-div .form-range {
+        width: 80%;
+    }
+    .product-buttons .buy, .product-buttons .buy:hover {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .product-buttons .cancel, .product-buttons .cancel:hover {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .my-account .title {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .order-text-div .order-p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .product-section-div .items {
+        font-size: 16px;
+    }
+    .product-section-div .price {
+        font-size: 16px;
+    }
+    .product-section-div .date {
+        font-size: 12px;
+    }
+    .stepper-div .order {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    .range-text-div .placed {
+        font-size: 12px;
+    }
+    .product-section-div .product-div .product .img-set {
+        width: 60%;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .range-text-div {
+        margin: 0px 70px 0px 0px;
+    }
+    .stepper-div .form-range {
+        width: 75%;
+    }
+    .product-buttons .buy, .product-buttons .buy:hover {
+        font-size: 12px;
+        padding: 8px 25px;
+    }
+    .product-buttons .cancel, .product-buttons .cancel:hover {
+        font-size: 12px;
+        padding: 8px 25px;
+    }
+    .product-section-div .product-div .product .img-set {
+        width: 60%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .range-text-div {
+        margin: 0px 70px 0px 0px;
+    }
+    .stepper-div .form-range {
+        width: 63%;
+    }
+    .my-account .order-fafa-circle {
+        width: 65px;
+        height: 65px;
+    }
+    .order-text-div .order-p {
+        font-size: 16px;
+        margin-top: 23px;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+    .range-text-div {
+        margin: 0px 50px 0px 0px;
+    }
+    .my-account .order-fafa-circle {
+        width: 65px;
+        height: 65px;
+    }
+    .order-text-div .order-p {
+        font-size: 16px;
+        margin-top: 23px;
+    }
+}
+@media (min-width:1024px) and (max-width:1199px){
+    .range-text-div {
+        margin: 0px 50px 0px 0px;
+    }
+    .my-account .order-fafa-circle {
+        width: 65px;
+        height: 65px;
+    }
+    .order-text-div .order-p {
+        font-size: 16px;
+        margin-top: 23px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .range-text-div {
+        margin: 0px 70px 0px 0px;
+    }
+}

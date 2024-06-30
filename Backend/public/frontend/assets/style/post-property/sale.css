@@ -1,0 +1,1207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* css Started */
+section.Sales {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.Sales .Sell {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.Sales .sell-background {
+    background-color: red;
+    height: 200px;
+}
+.Sales .looking-property button.btn.btn-property {
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+    color: #000000;
+}
+.Sales .looking-property button.btn.btn-property:hover {
+    background-color: red;
+    color: white;
+}
+
+.Sales .white {
+    top: 72px;
+    position: relative;
+    height: 683px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.Sales .blue {
+    padding: 20px 29px;
+    transform: translate(10px, -47px);
+    height: 71px;
+    background: #f6f9ff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 3px #00000021;
+    border-radius: 5px;
+    opacity: 1;
+}
+.Sales .white .blue .post-text {
+    font-size: 15px;
+    font-weight: bold;
+}
+.Sales .white .blue .image-post img.brokerage {
+    width: 25px;
+    height: 33px;
+}
+.Sales .white .blue .image-post img.Tenants {
+    width: 31px;
+    height: 33px;
+}
+.Sales .white .blue .image-post img.home {
+    width: 32px;
+    height: 32px;
+}
+.Sales .white .blue .message {
+    color: #131313;
+    font-size: 14px;
+}
+
+.Sales .white .fields .form-control {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    opacity: 1;
+    height: 32px;
+    width: 100%;
+    color: #656565;
+    font-size: 12px;
+    font-family: "Poppins";
+}
+.Sales .white .fields select.form-select {
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    opacity: 1;
+    height: 32px;
+    width: 100%;
+    color: #656565;
+    font-size: 12px;
+    font-family: "Poppins";
+}
+.Sales .white .fields .name {
+    margin: 12px 0px;
+    color: #656565;
+    font-size: 12px;
+    font-family: "Poppins";
+}
+.Sales .white .fields .email {
+    margin: 12px 0px;
+}
+
+.Sales .white .fields .content {
+    display: flex;
+}
+.Sales .white .fields p.whatsapp {
+    font-size: 12px;
+    color: #656565;
+    font-family: "Poppins";
+}
+.Sales .white .fields img.whatsapp {
+    height: 16px;
+    width: 16px;
+}
+.Sales .white .fields .form-check-input:checked {
+    background-color: #34bc48;
+    border-color: #34bc48;
+}
+.Sales .white .Sell-property {
+    font-size: 14px;
+    color: #131313;
+    font-family: "Poppins";
+}
+.Sales .white .property-tab {
+    transform: translate(10px, -33px);
+    padding: 12px 0px;
+    width: 100%;
+    height: 55px;
+    background: #f6f9ff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 3px #00000021;
+    border-radius: 36px;
+    opacity: 1;
+}
+
+.Sales .white .property-tab .nav-link {
+    padding: 0px;
+    width: 90%;
+    height: 32px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #787878;
+    border-radius: 16px;
+    opacity: 1;
+    font-size: 14px;
+    color: #131313;
+    font-family: "Poppins";
+    transition: background-color 0.3s ease;
+
+    /* Styles for the active state */
+    &:active,
+    &:focus,
+    &:hover {
+        color: #db0000;
+        font-size: 14px;
+        font-family: "Poppins";
+        font-weight: 600;
+    }
+}
+.Sales .white .tabs-white-background {
+    position: relative;
+    top: 9%;
+    width: 100%;
+    height: 186px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 19px #0000000d;
+    opacity: 1;
+}
+.Sales .white .tabs-white-background .tab-content {
+    margin-top: 15%;
+}
+.Sales .white .tabs-white-background .nav-pills .nav-item {
+    margin-right: 0px;
+}
+
+.Sales
+    .white
+    .tabs-white-background
+    .property-tab
+    .tab-content
+    .tab-pane
+    .nav-link.active {
+    width: 100%;
+    background: #f9d1d1 0% 0% no-repeat padding-box;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.Sales
+    .white
+    .tabs-white-background
+    .property-tab
+    .tab-content
+    .tab-pane
+    .nav-link {
+    width: 100%;
+}
+.Sales .white .Post-Add {
+    height: 120px;
+    width: 100%;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.Sales .white .Post-Add .add-free {
+    text-align: center;
+    padding: 42px 0px;
+}
+.Sales .white .Post-Add .add-free button.btn.btn-add-free {
+    font-family: "Poppins";
+    font-size: 14px;
+    width: 223px;
+    height: 35px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #db0000;
+    border-radius: 36px;
+    opacity: 1;
+}
+.Sales .white .Post-Add .add-free button.btn.btn-add-free:hover {
+    background: #db0000 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.Sales .white .blue .doted {
+    top: -26px;
+    position: relative;
+    left: 88%;
+    border: none;
+    border: 1px dashed #003ca5;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 26px;
+}
+
+.Sales .white .blue .doted::before,
+.doted::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #f00;
+    border-radius: 50%;
+}
+
+.Sales .white .blue .doted::before {
+    left: -5px;
+    top: -3px;
+}
+
+.Sales .white .blue .doted::after {
+    right: -5px;
+    top: -3px;
+}
+.Sales .white .blue .doted1 {
+    top: -26px;
+    position: relative;
+    left: 88%;
+    border: none;
+    border: 1px dashed #003ca5;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 26px;
+}
+
+.Sales .white .blue .doted1::before,
+.doted1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #f00;
+    border-radius: 50%;
+}
+
+.Sales .white .blue .doted1::before {
+    left: -5px;
+    top: -3px;
+}
+
+.Sales .white .blue .doted1::after {
+    right: -5px;
+    top: -3px;
+}
+
+.Sales input#phone {
+    border: none;
+}
+
+.Sales .white .fields .name .iti.iti--allow-dropdown.iti--separate-dial-code {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    opacity: 1;
+    height: 32px;
+    width: 100%;
+    color: #656565;
+    font-size: 12px;
+    font-family: "Poppins";
+}
+
+.Sales .white .fields .name .iti--separate-dial-code .iti__selected-flag {
+    background-color: transparent;
+}
+
+.Sales .white .fields .name .iti--allow-dropdown input,
+.iti--allow-dropdown input[type="text"],
+.iti--allow-dropdown input[type="tel"],
+.iti--separate-dial-code input,
+.iti--separate-dial-code input[type="text"],
+.iti--separate-dial-code input[type="tel"] {
+    background: transparent;
+    padding-right: 6px;
+    padding-left: 52px;
+    margin-left: 0;
+    padding: 6px;
+}
+.Sales .white .fields {
+    transform: translate(10px, -20px);
+}
+.words-trust1 {
+    display: none;
+}
+
+
+
+.select2-container .select2-selection--multiple {
+    min-height: 33px;
+    height: 25px;
+   border-radius: 25px;
+   border: 1px solid #D4D4D4;
+}
+ .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: 1px solid #D4D4D4;
+    outline: 0;
+}
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+ .select2-container .select2-search--inline .select2-search__field {
+
+    margin: 0px 3px;
+    padding: 0px 8px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    list-style: none;
+    font-size: 10px;
+    padding: 4px 12px !important;
+    color: #000 !important;
+    margin: 2px 0px 0px 0px;
+}
+ .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #ffffff;
+    color: black;
+    font-size: 12px;
+}
+ .select2-results__option {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+ .select2-results__option:hover {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    color: #DB0000 !important;
+}
+
+ .select2-container {
+    width: 100% !important;
+}
+
+
+/* css Started */
+
+/* Media Query Started */
+@media (min-width: 280px) and (max-width: 320px) {
+    .Sales .blue {
+        padding: 20px 10px;
+        transform: translate(1px, -18px);
+        height: auto;
+    }
+    .Sales .white .blue .image-post img.brokerage {
+        width: 19px;
+        height: 23px;
+    }
+    .Sales .white .blue .image-post img.Tenants {
+        width: 26px;
+        height: 28px;
+    }
+    .Sales .white .blue .image-post img.home {
+        width: 25px;
+        height: 30px;
+    }
+    .Sales .white .property-tab {
+        transform: translate(0px, -34px);
+        padding: 12px 0px;
+    }
+    .Sales .white .fields .name {
+        margin: 8px 0px;
+    }
+    .Sales .Sell {
+        font-size: 16px;
+    }
+    .Sales .white {
+        top: 46px;
+        padding: 0px 8px;
+    }
+    .Sales .white .property-tab .nav-link {
+        margin: 3px 6px;
+        padding: 0px 25px;
+        width: 100%;
+    }
+    .Sales .white .property-tab {
+        height: 135px;
+        padding: 12px 12px;
+    }
+    .Sales .white .tabs-white-background .tab-content {
+        margin-top: 27%;
+    }
+    .Sales .white .Post-Add {
+        margin-top: 3%;
+    }
+    .Sales .white {
+        margin-bottom: 27%;
+        height: auto;
+    }
+    .looking-property {
+        text-align: center;
+    }
+    .Sales .looking-property button.btn.btn-property {
+        width: auto;
+        height: auto;
+    }
+    .Sales .white .fields {
+        transform: translate(0px, 0px);
+    }
+    .Sales .white .tabs-white-background {
+        height: 288px;
+    }
+}
+@media (min-width: 321px) and (max-width: 485px) {
+    .Sales .blue {
+        transform: translate(0px, -48px);
+        height: auto;
+    }
+    .Sales .Sell {
+        font-size: 19px;
+    }
+    .looking-property {
+        text-align: center;
+    }
+    .Sales .looking-property button.btn.btn-property {
+        width: auto;
+        height: auto;
+    }
+    .Sales .white .blue .image-post img.brokerage {
+        width: 30px;
+        height: 31px;
+    }
+    .image-post {
+        margin: 7px 6px;
+    }
+    .Sales .white .blue .message {
+        margin: 7px 6px;
+    }
+
+    .Sales .white .fields .name {
+        margin: 10px 0px;
+    }
+    .Sales .white .fields .email {
+        margin: 10px 0px;
+    }
+    .Sales .white .fields {
+        padding: 0px 21px;
+        transform: translate(0px, -27px);
+    }
+    .Sales .white .fields .content {
+        justify-content: center;
+    }
+    .Sales .white .property-tab .nav-link {
+        padding: 0px 0px;
+        width: 50%;
+    }
+    .Sales .white .property-tab {
+        transform: translate(3px, -35px);
+        height: 140px;
+    }
+    .Sales .white .tabs-white-background .tab-content {
+        padding: 0px 18px;
+        margin-top: 18%;
+    }
+    .Sales
+        .white
+        .tabs-white-background
+        .property-tab
+        .tab-content
+        .tab-pane
+        .nav-link {
+        margin: 4px 0px;
+    }
+    .Sales .white {
+        height: auto;
+    }
+
+    .Sales .white .Post-Add {
+        margin-top: 2%;
+    }
+    .Sales .white .tabs-white-background .nav-pills .nav-item {
+        text-align: -webkit-center;
+        margin-right: 0px;
+        margin: 3px 0px;
+    }
+    .Sales .white .tabs-white-background {
+        height: 290px;
+    }
+}
+@media (min-width: 486px) and (max-width: 575px) {
+    .Sales .blue {
+        padding: 20px 29px;
+        transform: translate(0px, -48px);
+        height: auto;
+    }
+    .image-post {
+        margin: 7px 6px;
+    }
+    .Sales .white .blue .message {
+        margin: 7px 6px;
+    }
+    .Sales .Sell {
+        font-size: 20px;
+    }
+    .looking-property {
+        text-align: center;
+    }
+    .Sales .looking-property button.btn.btn-property {
+        width: auto;
+        height: auto;
+    }
+    .Sales .white .blue .message {
+        margin: 7px 6px;
+    }
+    .Sales .white .fields .email {
+        padding: 0px 38px;
+    }
+
+    .Sales .white .fields .name {
+        padding: 0px 38px;
+        margin: 10px 0px;
+    }
+    .Sales .white .fields .content {
+        justify-content: center;
+    }
+    .fields {
+        transform: translate(10px, -20px);
+    }
+    .Sales .white .tabs-white-background .nav-pills .nav-item {
+        text-align: -webkit-center;
+        margin-right: 0px;
+        margin: 3px 0px;
+    }
+    .Sales .white .property-tab .nav-link {
+        width: 51%;
+    }
+    .Sales .white .property-tab {
+        transform: translate(-5px, -33px);
+        height: 141px;
+    }
+
+    .Sales .white .tabs-white-background {
+        transform: translate(-8px, 10px);
+        /* left: -8px; */
+        height: 286px;
+    }
+    .Sales .white {
+        height: auto;
+    }
+    .Sales .white .tabs-white-background .tab-content {
+        margin-top: 15%;
+        padding: 0px 45px;
+    }
+    .Sales
+        .white
+        .tabs-white-background
+        .property-tab
+        .tab-content
+        .tab-pane
+        .nav-link {
+        width: 100%;
+        margin: 6px 0px;
+    }
+    .Sales .white .Post-Add {
+        transform: translate(-10px, 35px);
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .Sales .blue {
+        height: auto;
+        transform: translate(-1px, -47px);
+    }
+    .image-post {
+        margin: 7px 6px;
+    }
+    .Sales .white .blue .message {
+        margin: 7px 6px;
+    }
+    .fields {
+        margin-top: -20px;
+    }
+    .looking-property {
+        text-align: center;
+    }
+    .Sales .looking-property button.btn.btn-property {
+        width: auto;
+        height: auto;
+    }
+    .Sales .white .fields .name {
+        margin: 11px 65px;
+    }
+    .Sales .white .fields .email {
+        margin: 11px 65px;
+    }
+    .Sales .white .fields .content {
+        justify-content: center;
+    }
+
+    .Sales .white .property-tab {
+        text-align: -webkit-center;
+        transform: translate(-3px, -34px);
+        padding: 12px 79px;
+        height: 152px;
+    }
+    .Sales .white .property-tab .nav-link {
+        margin: 5px 0px;
+    }
+    .Sales .white .tabs-white-background {
+        height: 277px;
+        transform: translate(-10px, 10px);
+    }
+    .Sales .white {
+        height: auto;
+    }
+    .Sales .white .Post-Add {
+        transform: translate(-10px, 33px);
+        height: 120px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .Sales .Sell {
+        font-size: 19px;
+    }
+    .Sales .looking-property button.btn.btn-property {
+        font-size: 11px;
+    }
+    /* .looking-property {
+        margin-top: 26%;
+    } */
+    .Sales .blue {
+        height: auto;
+    }
+    .Sales .white .blue .post-text {
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .Sales .white .blue .message {
+        font-size: 12px;
+    }
+    .Sales .white .blue .image-post img.home {
+        width: 30px;
+        height: 30px;
+    }
+    .fields {
+        padding: 0px 36px;
+    }
+    .Sales .white .fields .name {
+        margin: 8px 0px;
+    }
+    .Sales .white .fields .email {
+        margin: 8px 0px;
+    }
+    .Sales .white .property-tab {
+        transform: translate(3px, -33px);
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .Sales .blue {
+        height: auto;
+    }
+    .Sales .white .blue .post-text {
+        text-align: center;
+    }
+    .Sales .white .blue .post-text {
+        padding: 6px 0px;
+        text-align: center;
+    }
+    .Sales .white .fields .name {
+        margin: 13px 0px;
+    }
+    .Sales .white .fields .email {
+        margin: 13px 0px;
+    }
+
+    .Sales .white {
+        height: 767px;
+    }
+    .Sales .Sell {
+        font-size: 20px;
+    }
+    /* .looking-property {
+        margin-top: 20%;
+    } */
+    .Sales .looking-property button.btn.btn-property {
+        width: auto;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .Sales .blue {
+        height: 95px;
+    }
+    /* .looking-property {
+        margin-top: 18%;
+    } */
+    .Sales .looking-property button.btn.btn-property {
+        width: auto;
+    }
+    .Sales .white .fields .name {
+        margin: 10px 0px;
+    }
+    .Sales .white .fields .email {
+        margin: 10px 0px;
+    }
+    .Sales .white .tabs-white-background .tab-content {
+        margin-top: 13%;
+    }
+    .Sales .white .blue .message {
+        font-size: 13px;
+    }
+}
+
+/* word trust section css started */
+
+.Sales .words-trust {
+    position: relative;
+    margin-top: 2%;
+}
+.Sales .words-trust img.words {
+    width: 100%;
+    height: 418px;
+}
+
+.Sales .words-trust .vertical-border {
+    border-left: 8px solid #db0000;
+    height: 100%;
+    margin: 20px;
+    position: absolute;
+    top: -17px;
+    left: -5px;
+}
+
+.Sales .words-trust .best-property {
+    right: 14px;
+    top: 23px;
+    position: absolute;
+    width: 652px;
+    height: 337px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 22px #0000000f;
+}
+.Sales .words-trust .best-property h1 {
+    padding: 7px 0px 0px 36px;
+    letter-spacing: 0px;
+    line-height: 37px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.Sales .words-trust .bk-slider {
+    top: 71px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 50px 0 100px;
+}
+
+.Sales .words-trust .main-start .swiper {
+    top: 113px;
+    position: absolute;
+    width: 94%;
+    height: 71%;
+}
+.Sales .words-trust p.recently {
+    height: 196px;
+}
+
+.Sales .words-trust .main-start .swiper-slide {
+    width: 100%;
+    padding: 13px 24px;
+    text-align: justify;
+    letter-spacing: 0px;
+    color: #131313 !important;
+    background: #f6f9ff;
+    border-radius: 5px;
+    display: flex;
+    transition: width 0.3s ease;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.Sales .words-trust .main-start .swiper-slide.swiper-slide-active {
+    width: 573px !important;
+    margin-left: 25px;
+    background-color: transparent !important;
+    padding: 32px 0px 0px 46px;
+    text-align: justify;
+    letter-spacing: 0.56px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #131313 !important;
+    font-size: 14px !important;
+}
+
+.Sales .words-trust .main-start .swiper-slide.swiper-slide-next {
+    font-weight: 500;
+    color: #131313;
+    margin-right: 11px !important;
+    max-width: 298px !important;
+    font-size: 12px;
+}
+
+.Sales .words-trust .main-start .swiper-slide {
+    font-weight: 500;
+    background-color: #f6f9ff;
+    transition: background-color 0.3s ease;
+    max-height: 255px;
+}
+
+.Sales .words-trust .main-start .swiper-slide.swiper-slide-active {
+    background-color: transparent !important;
+    color: #131313 !important;
+}
+.Sales .words-trust .main-start .swiper-backface-hidden .swiper-slide {
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+}
+.Sales .words-trust .main-start .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 25%;
+    width: 100%;
+}
+
+.Sales
+    .words-trust
+    .main-start
+    .swiper-horizontal
+    > .swiper-pagination-bullets
+    .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    background: #db0000 0% 0% no-repeat padding-box;
+}
+.Sales .words-trust .content .ashok {
+    font-size: 14px;
+    color: #131313;
+    font-weight: 600;
+}
+
+.Sales h1.word-text.text-center {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 13%;
+}
+.best-property {
+    position: absolute;
+    top: 3px;
+}
+/* word trust section css end */
+.Sales .main-start-second .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.Sales .main-start-second .swiper-slide {
+    background-color: transparent !important;
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sales .main-start-second .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Sales .main-start-second .content .recently1 {
+    text-align: justify;
+    letter-spacing: 0.56px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #131313;
+    font-size: 14px;
+}
+.Sales .main-start-second .content .ashok {
+    text-align: left;
+    font-size: 14px;
+    color: #131313;
+    font-weight: 600;
+}
+.Sales .words-trust1 {
+    position: relative;
+    margin-top: 2%;
+}
+.Sales .words-trust1 img.words {
+    width: 100%;
+    height: auto;
+}
+.Sales .words-trust1 .main-start-second {
+    width: 100%;
+    position: absolute;
+    top: 180px;
+}
+.Sales .words-trust1 .best {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+
+    box-shadow: 0px 3px 22px #0000000f;
+}
+.Sales
+    .words-trust1
+    .main-start
+    .swiper-horizontal
+    > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0px;
+    width: 100%;
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .Sales .words-trust {
+        display: none;
+    }
+    .Sales .words-trust1 img.words {
+        width: 100%;
+        height: 466px !important;
+    }
+    .Sales .words-trust1 .best {
+        padding: 10px 11px;
+        text-align: justify;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .Sales .words-trust1 .main-start-second {
+        top: 54px;
+    }
+    .Sales .main-start-second .content .recently1 {
+        padding: 10px 10px;
+
+        font-weight: normal;
+
+        font-size: 13px;
+    }
+    .Sales .main-start-second .content .recently1 {
+        height: 257px;
+    }
+    .Sales .main-start-second .swiper {
+        height: 401px;
+    }
+    .words-trust1 {
+        display: block;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 485px) {
+    .Sales .words-trust {
+        display: none;
+    }
+    .Sales h1.word-text.text-center {
+        font-size: 18px;
+        margin-top: 25%;
+    }
+    .Sales .words-trust1 .best {
+        text-align: justify;
+        box-shadow: none;
+        padding: 23px 8px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    .Sales .words-trust1 img.words {
+        width: 100%;
+        height: 394px !important;
+    }
+    .Sales .words-trust1 .main-start-second {
+        top: 62px;
+        padding: 6px 14px;
+    }
+    .Sales .main-start-second .content .recently1 {
+        height: 200px;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .Sales .main-start-second .swiper {
+        width: 100%;
+        height: 319px;
+    }
+    .words-trust1 {
+        display: block;
+    }
+}
+
+@media (min-width: 486px) and (max-width: 575px) {
+    .Sales .words-trust1 .best {
+        box-shadow: none;
+        padding: 23px 8px;
+        line-height: 26px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .Sales .words-trust {
+        display: none;
+    }
+    .Sales h1.word-text.text-center {
+        font-size: 18px;
+        margin-top: 25%;
+    }
+
+    .Sales .words-trust1 img.words {
+        width: 100%;
+        height: 394px !important;
+    }
+    .Sales .words-trust1 .main-start-second {
+        top: 62px;
+        padding: 6px 14px;
+    }
+    .Sales .main-start-second .content .recently1 {
+        height: 158px;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .Sales .main-start-second .swiper {
+        width: 100%;
+        height: 319px;
+    }
+    .words-trust1 {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .Sales .words-trust1 .best {
+        text-align: justify;
+        box-shadow: none;
+        padding: 23px 8px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .Sales .words-trust {
+        display: none;
+    }
+    .Sales h1.word-text.text-center {
+        font-size: 18px;
+        margin-top: 25%;
+    }
+
+    .Sales .words-trust1 img.words {
+        width: 100%;
+        height: 394px !important;
+    }
+    .Sales .words-trust1 .main-start-second {
+        top: 62px;
+        padding: 6px 14px;
+    }
+    .Sales .main-start-second .content .recently1 {
+        height: 158px;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .Sales .main-start-second .swiper {
+        width: 100%;
+        height: 319px;
+    }
+    .words-trust1 {
+        display: block;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .Sales .words-trust1 .best {
+        text-align: justify;
+        box-shadow: none;
+        padding: 23px 8px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .Sales .words-trust {
+        display: none;
+    }
+    .Sales h1.word-text.text-center {
+        font-size: 18px;
+        margin-top: 25%;
+    }
+
+    .Sales .words-trust1 img.words {
+        width: 100%;
+        height: 394px !important;
+    }
+    .Sales .words-trust1 .main-start-second {
+        top: 62px;
+        padding: 6px 14px;
+    }
+    .Sales .main-start-second .content .recently1 {
+        height: 158px;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .Sales .main-start-second .swiper {
+        width: 100%;
+        height: 319px;
+    }
+    .words-trust1 {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .Sales .words-trust .main-start .swiper-slide.swiper-slide-active {
+        width: 100% !important;
+    }
+    .Sales .words-trust .best-property h1 {
+        padding: 9px 23px 0px 85px;
+    }
+    .Sales .words-trust .best-property {
+        text-align: left;
+        right: 0px;
+        top: 22px;
+        width: auto;
+        height: auto;
+        background: none;
+        box-shadow: none;
+    }
+    .Sales
+        .words-trust
+        .main-start
+        .swiper-horizontal
+        > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 0px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .Sales .words-trust .main-start .swiper-slide.swiper-slide-active {
+        width: 486px !important;
+    }
+    .Sales .words-trust .best-property {
+        width: 561px;
+        height: 418px;
+    }
+    .Sales .words-trust .main-start .swiper {
+        top: 113px;
+        position: absolute;
+        width: 94%;
+        height: 87%;
+    }
+    .Sales .words-trust .main-start .swiper-slide {
+        max-height: 309px;
+    }
+    .Sales .words-trust p.recently {
+        height: 242px;
+    }
+    .Sales .words-trust img.words {
+        height: 522px;
+    }
+    .Sales
+        .words-trust
+        .main-start
+        .swiper-horizontal
+        > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        top: 77%;
+        left: 24%;
+    }
+}

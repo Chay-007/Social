@@ -1,0 +1,32 @@
+.terms .text-holder-terms p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.terms .text-holder-terms h4 {
+    font-size: 16px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.terms .text-holder-terms ul li {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.terms .text-holder-terms ul{
+    padding-left: 1%;
+}
+
+ .video-set {
+    width: 100%;
+}
+
+
+ .first {
+    color: #FFF;
+    font-size: 45px;
+}
+
+
+

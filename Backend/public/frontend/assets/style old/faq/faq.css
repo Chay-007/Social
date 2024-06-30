@@ -1,0 +1,161 @@
+/* start faq section style  */
+.faq .faq-tab {
+    border-top: 1px solid #707070;
+    /* margin-bottom: 20px; */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faq .acc-bd {
+    border: 1px solid #707070;
+    margin-bottom: 20px;
+}
+
+.faq .acc-bd .content {
+    font-size: 12px;
+    color: #787878;
+}
+
+.faq-tab:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+}
+
+/* faq */
+
+.faq .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow:none;
+}
+
+
+.faq .banner-terms .video-set {
+    height: auto;
+    width: 100%;
+}
+
+.faq .accordion {
+    border-color: #707070;
+    margin-top: 5px;
+}
+
+.faq .accordion .accordion-button {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+.faq .accordion .accordion-body .content{
+    color: #000;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+.faq .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #FFF;
+    font-size: 18px;
+}
+
+.faq .accordion-button::after {
+    content: "";
+    background-image: url("../../../assets/images/faq/plus.png");
+    background-repeat: no-repeat;  
+    background-position: center;
+    width: 15px;
+    height: 15px;
+}
+
+.faq .accordion-button:not(.collapsed)::after {
+    background-image: url("../../../assets/images/faq/minus.png")
+}
+
+
+
+.faq .banner-main-class {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.faq  .banner-main-class .black-overlay{
+    background: linear-gradient(180deg,rgb(0 0 0 / 61%) 0%,#0000006e 100%);
+    height: 98%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 9;
+    text-align: center;
+}
+
+.overlay-content .title-div {
+    color: #FFF;
+    font-size: 45px;
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    z-index: 9;
+}
+
+.faq  .video-set {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+}
+
+
+
+
+.faq .accordion .accordion-button:focus{
+    box-shadow: none;
+}
+
+.faq .accordion .accordion-item{
+    border-radius: 0px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+
+
+
+@media (min-width:0px) and (max-width:768px) {
+    .faq  .video-set {
+        height: 200px;
+    }
+
+    .faq .accordion .accordion-button {
+        font-size: 15px;
+    }
+    .faq .accordion .accordion-body .content {
+        font-size: 12px;
+    }
+
+    .faq .overlay-content .first{
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:769px) and (max-width:992px) {
+    .faq .faq-tab {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .faq .faq-tab {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1200px) {}
+
+@media (min-width:1200px) and (max-width:1368px) {}
+
+/* end faq section style  */

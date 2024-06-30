@@ -1,0 +1,325 @@
+
+.about .about-banner{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    border-radius: 25px;
+}
+.our-story{
+    margin:3% 0% 7% 0%;
+}
+.our-story .sub-text{
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.our-story .h5-quote{
+    font-size: 24px;
+    color: #F05340;
+    margin-top: 20px;
+}
+.why-choose{
+    background-color: #FFFBFB;
+    padding: 40px 0px 80px 0px;
+}
+.why-choose .choose-fafa-bg{
+    background-color: #fff;
+    border-radius: 50px;
+    width: 30%;
+    height: 60px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.why-choose .choose-fafa-icons{   
+   width: 35px;   
+}
+.why-choose .choos-col .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.why-choose .choos-col .sub-text{
+    font-size: 14px;
+    margin-bottom: 0px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.why-choose .bd-right{
+    border-right: 1px solid #000;
+    padding-bottom: 40px;
+}
+.happy-clients{
+    margin: 8% 0% 6% 0%;
+}
+.happy-clients .client-div{
+    height: 266px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.happy-clients .client-div .client-img{
+width: 100%;
+height: 75px;
+border-radius: 10px;
+}
+.happy-clients .client-div .client-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.happy-clients .client-div .client-review{
+    font-size: 14px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.happy-clients .client-div .rating-star{
+width: 14px;
+margin-right: 5px;
+}
+
+
+.counter{
+    margin: 10% 0%;
+}
+.counter .counter-circle{
+    height: 222px;
+    width: 222px;
+    background-color: #000;
+    border-radius: 130px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.counter .counter-circle .number{
+    color: #fff;
+    font-size: 51px;
+    font-weight: 600;
+}
+.counter  .counter-text{
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: 25px;
+}
+
+@media (max-width:320px){
+    .about .about-banner {
+        width: 100%;
+        height: 100px;
+    }
+    .our-story .h5-quote {
+        font-size: 18px;
+    }
+    .why-choose {
+        padding: 25px 0px 25px 0px;
+    }
+    .why-choose .choos-col .title {
+        font-size: 16px;
+    }
+    .why-choose .choos-col .sub-text {
+        font-size: 13px;
+        -webkit-line-clamp: 4;
+        width: 100%;
+    }
+    .why-choose .bd-right {
+        border-right: 0px solid #000;
+    }
+    .why-choose .choose-fafa-bg {
+        width: 50%;
+        height: 50px;
+        margin: 0;
+    }
+    .happy-clients .client-div .client-name {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .happy-clients .client-div .client-img {
+        width: 100%;
+        height: 50px;
+    }
+    .counter .counter-circle {
+        height: 70px;
+        width: 70px;
+    }
+    .counter .counter-circle .number {
+        font-size: 16px;
+    }
+    .counter .counter-text {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width:321px) and (max-width:485px){
+    .about .about-banner {
+        width: 100%;
+        height: 150px;
+    }
+    .our-story .h5-quote {
+        font-size: 18px;
+    }
+    .why-choose {
+        padding: 25px 0px 25px 0px;
+    }
+    .why-choose .choos-col .title {
+        font-size: 16px;
+    }
+    .why-choose .choos-col .sub-text {
+        font-size: 13px;
+        -webkit-line-clamp: 4;
+        width: 100%;
+    }
+    .why-choose .bd-right {
+        border-right: 0px solid #000;
+    }
+    .why-choose .choose-fafa-bg {
+        width: 20%;
+        height: 50px;
+        margin: 0;
+    }
+    .why-choose .choose-fafa-icons {
+        width: 25px;
+    }
+    .happy-clients .client-div .client-name {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .counter .counter-circle {
+        height: 100px;
+        width: 100px;
+    }
+    .counter .counter-circle .number {
+        font-size: 20px;
+    }
+    .counter .counter-text {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width:485px) and (max-width:574px){
+    .about .about-banner {
+        width: 100%;
+        height: 200px;
+    }
+    .why-choose .choose-fafa-bg {
+        width: 25%;
+    }
+    .why-choose .bd-right {
+        border-right: 0px solid #000;
+    }
+    .counter .counter-circle {
+        height: 100px;
+        width: 100px;
+    }
+    .counter .counter-circle .number {
+        font-size: 20px;
+    }
+    .counter .counter-text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:575px) and (max-width:767px){
+    .about .about-banner {
+        width: 100%;
+        height: 300px;
+    }
+    .why-choose .choose-fafa-bg {
+        width: 20%;
+        height: 60px;
+    }
+    .why-choose .bd-right {
+        border-right: 0px solid #000;
+    }
+    .counter .counter-circle {
+        height: 100px;
+        width: 100px;
+    }
+    .counter .counter-circle .number {
+        font-size: 20px;
+    }
+    .counter .counter-text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .about .about-banner {
+        width: 100%;
+        height: 400px;
+    }
+    .why-choose .choose-fafa-bg {
+        width: 10%;
+        height: 60px;
+    }
+    .why-choose .bd-right {
+        border-right: 0px solid #000;
+    }
+    .counter .counter-circle {
+        height: 150px;
+        width: 150px;
+    }
+    .counter .counter-circle .number {
+        font-size: 35px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1023px){
+    .about .about-banner {
+        width: 100%;
+        height: 400px;
+    }
+    .why-choose .choose-fafa-bg {
+        border-radius: 50px;
+        width: 50%;
+        height: 50px;
+        margin: 0;
+    }
+
+}
+
+@media (min-width:1024px) and (max-width:1999px){
+    .about .about-banner {
+        width: 100%;
+        height: 500px;
+    }
+    .why-choose .choose-fafa-bg {
+        width: 50%;
+        height: 50px;
+        margin: 0;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1400px){
+    .about .about-banner {
+        width: 100%;
+        height: 550px;
+    }
+    .why-choose .choose-fafa-bg {
+        width: 35%;
+        height: 50px;
+        margin: 0;
+    }
+}
+
+@media (min-width:1400px){
+    .why-choose .choose-fafa-bg {
+        width: 25%;
+        height: 50px;
+        margin: 0;
+    }
+}

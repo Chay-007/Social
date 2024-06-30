@@ -1,0 +1,135 @@
+.steps-section {
+    margin: 140px 0px 70px 0px;
+}
+.steps-section .three-steps-slide .sec-1 .post-p{
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 12px;
+    color: #db0000;
+    margin-bottom: 5px;
+}
+
+
+.steps-section .three-steps-slide .sec-1 .step3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.steps-section .three-steps-slide .sec-1 .property-btn {
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    background: #003ca5;
+    padding: 8px 13px;
+    border-radius: 50px;
+    border: 1px solid #003ca5;
+}
+.steps-section .three-steps-slide .sec-1 .property-btn:hover{
+    background: #d9e7ff;
+    border: 1px solid #003ca5;
+    color: #000;
+}
+
+.steps-section .three-steps-slide .step-slide-div{
+    border-radius: 5px;
+    background: #f8faff;
+    padding: 20px;
+    height: 200px;
+}
+.steps-section .three-steps-slide .step-slide-div .slide-sm-img{
+    height: 30px;
+    width: auto;
+}   
+.steps-section .three-steps-slide .step-slide-div .title-slide{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;    
+    margin:8px 0px 10px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.steps-section .three-steps-slide .step-slide-div .content{
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.steps-section .three-steps-slide .owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 4px;
+    margin: 5px 2px;
+    background: #D6D6D6;
+    display: block;
+}
+.steps-section .three-steps-slide .owl-theme .owl-dots .owl-dot.active span{
+    background: #DB0000;
+}
+.steps-section .three-steps-slide .owl-theme .owl-nav {
+    margin-top: 0px;
+}
+
+@media  (max-width:767.98px){
+    .steps-section {
+        margin: 0px 0px 0px 0px;
+    }
+    .steps-section .three-steps-slide .sec-1{
+        text-align: center;
+    }
+    .steps-section .three-steps-slide .sec-1 .property-btn {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .steps-section .three-steps-slide .sec-1 .step3 {
+        font-size: 20px;
+    }
+    .steps-section .three-steps-slide .step-slide-div .content {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .steps-section .three-steps-slide .step-slide-div .title-slide {
+        font-size: 17px;
+        text-align: center;
+}
+.steps-section .three-steps-slide .step-slide-div .slide-sm-img {
+    margin: auto;
+    width: auto;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+.steps-section .three-steps-slide .sec-1 .step3 {
+    font-size: 15px;
+}
+}
+
+@media (min-width:992px) and (max-width:1023px){
+.steps-section .three-steps-slide .sec-1 .step3 {
+    font-size: 20px;
+  }
+
+  .steps-section .three-steps-slide .sec-1 .property-btn {
+    font-size: 12px;
+    padding: 8px 10px;
+}
+}
+
+@media (min-width:1024px) and (max-width:1199px){
+    .steps-section .three-steps-slide .sec-1 .step3 {
+        font-size: 20px;
+      }
+    
+      .steps-section .three-steps-slide .sec-1 .property-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}

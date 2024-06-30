@@ -1,0 +1,24 @@
+<div id="ad">
+    <div class="row mt-4" id="new">
+        <div class="col-md-6">
+        </div>
+        <div class="row">
+            <label for="Name" class="col-sm-3 col-form-label">Tag</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control me-4" id="city" name="name[{{$count}}]" value="{{ old('name.'.$count) }}" placeholder="Enter Tag">
+                @if($errors->has('name'))
+                    <span class="text-danger">{{ $errors->first('name') }}</span>
+                @endif
+            </div>
+            <div class="col-sm-1"><button type="button" class="btn btn-primary" onclick="addFile()"><i class="fa fa-solid fa-plus"></i> Add</button></div>
+            <div class="col-sm-2"><button type="button" class="btn btn-danger del"><i class="fa fa-solid fa-trash"></i> Remove</button></div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.del').on('click', function() {
+        $(this).closest("#new").remove();
+    });
+</script>

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+section.About-us-property {
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.About-us-property .banner-img {
+    position: relative;
+}
+.About-us-property .about-banner-img {
+    height: 253px;
+    width: 100%;
+}
+.About-us-property .banner-img .content-banner {
+    left: 16%;
+    position: absolute;
+    top: 36%;
+}
+.About-us-property .banner-img .content-banner h1 {
+    line-height: 60px;
+    font-size: 40px;
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+.About-us-property h1.heading-about {
+    padding: 37px 0px 10px 0px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.About-us-property .about-content {
+    text-align: justify;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.About-us-property .all-banner-cards .about-cards {
+    width: 100%;
+    padding: 24px 20px;
+    height: auto;
+    background: #f6f9ff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 3px #00000021;
+    border-radius: 5px;
+    opacity: 1;
+}
+.About-us-property .all-banner-cards .about-cards .vision img.vision-img {
+    width: 91px;
+    height: 59px;
+}
+.About-us-property .all-banner-cards .about-cards .vision-text h1 {
+    padding: 20px 0px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+}
+.About-us-property .all-banner-cards .about-cards p {
+    text-align: justify;
+    line-height: 22px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.About-us-property .all-banner-cards .about-cards .vision img.mission-img {
+    width: 85px;
+    height: 87px;
+}
+.About-us-property .all-banner-cards .about-cards .vision img.value-img {
+    width: 82px;
+    height: 81px;
+}
+.About-us-property .all-banner-cards {
+    margin-top: 3%;
+}
+/* media query started */
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .About-us-property .banner-img .content-banner {
+        top: 37%;
+    }
+    .About-us-property .banner-img .content-banner h1 {
+        line-height: 32px;
+        font-size: 18px;
+    }
+    .About-us-property .about-banner-img {
+        height: 155px;
+    }
+    .About-us-property h1.heading-about {
+        font-size: 24px;
+        padding: 13px 0px;
+    }
+    .About-us-property .about-content {
+        font-size: 13px;
+    }
+    .About-us-property .all-banner-cards .about-cards .vision-text h1 {
+        font-size: 27px;
+    }
+    .About-us-property .all-banner-cards .about-cards p {
+        font-size: 13px;
+    }
+    .About-us-property .all-banner-cards .about-cards {
+        margin: 8px 0px;
+    }
+}
+@media (min-width: 321px) and (max-width: 485px) {
+    .About-us-property .about-banner-img {
+        height: 191px;
+    }
+    .About-us-property .banner-img .content-banner h1 {
+        line-height: 46px;
+        font-size: 23px;
+    }
+    .About-us-property .banner-img .content-banner {
+        left: 11%;
+    }
+    .About-us-property h1.heading-about {
+        padding: 16px 0px;
+        font-size: 25px;
+    }
+    .About-us-property .about-content {
+        font-size: 14px;
+    }
+    .About-us-property .all-banner-cards .about-cards {
+        margin: 8px 0px;
+    }
+}
+@media (min-width: 486px) and (max-width: 575px) {
+    .About-us-property .banner-img .content-banner h1 {
+        line-height: 52px;
+        font-size: 30px;
+    }
+    .About-us-property .banner-img .content-banner {
+        left: 12%;
+        top: 34%;
+    }
+    .About-us-property h1.heading-about {
+        padding: 14px 0px;
+        font-size: 26px;
+    }
+    .About-us-property .about-content {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .About-us-property .all-banner-cards .about-cards {
+        margin: 8px 0px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .About-us-property .all-banner-cards .about-cards {
+        margin: 8px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .About-us-property h1.heading-about {
+        padding: 34px 0px 10px 0px;
+    }
+    .About-us-property .all-banner-cards .about-cards {
+        margin: 8px 0px;
+    }
+}

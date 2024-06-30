@@ -1,0 +1,125 @@
+.home-banner .video-banner-main {
+    /* position: absolute; */
+    /* top: 0px; */
+    width: 100%;
+    margin: -136px 0px 0px 0px;
+}
+
+.home-banner .video-set {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.home-banner .video-banner-main .slider-video {
+    position: relative;
+    width: 100%;
+}
+
+.home-banner .video-banner-main .slider-video .overlay-color {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #fff, #fff0);
+}
+
+.home-banner .video-banner-main .slider-video .overlay-title {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
+.home-banner .video-banner-main .slider-video .overlay-title .subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.home-banner .video-banner-main .slider-video .overlay-title .slide-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #003CA5;
+    text-align: center;
+}
+
+.home-banner .video-banner-main .slider-video .overlay-title .slide-title span {
+    color: #db0000;
+}
+
+.home-banner .video-banner-main .slider-video .overlay-title .border-bot {
+    width: 112px;
+    height: 5px;
+    background-color: #000;
+    margin: 20px auto 0px auto;
+}
+
+.home-banner .video-banner-main .owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    bottom: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home-banner .video-banner-main .owl-theme .owl-dots .owl-dot span {
+    width: 6px;
+    height: 6px;
+    margin: 5px 2px;
+    background: #8D8D8D;
+}
+
+.home-banner .video-banner-main .owl-theme .owl-dots .owl-dot.active span {
+    background: #000;
+    width: 9px;
+    height: 9px;
+}
+
+@media (max-width:767.98px) {
+    .home-banner .video-set {
+        width: 100%;
+        height: auto;
+}
+.home-banner .video-banner-main {
+    position: unset;
+    top: 0px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.home-banner .video-banner-main .slider-video .overlay-title .subtitle {
+    font-size: 13px;
+  }
+  .home-banner .video-banner-main .slider-video .overlay-title .slide-title {
+    font-size: 30px;
+  }
+  .home-banner .video-banner-main .slider-video .overlay-title .border-bot {
+    width: 80px;
+    height: 3px;
+    margin: 13px auto 0px auto;
+  }
+}
+
+
+@media (max-width:767.98px)  and (max-width:1023px){
+
+}
+
+
+@media (min-width:992px) and (max-width:1023px) {
+    .home-banner .video-banner-main .owl-theme .owl-dots {
+        bottom: 25%;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1199px) {
+    .home-banner .video-banner-main .owl-theme .owl-dots {
+        bottom: 25%;
+    }
+}

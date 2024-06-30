@@ -1,0 +1,21 @@
+.banner-about .banner-img {
+    width: 100%;
+    background: no-repeat;
+    height: auto;
+}
+
+.banner-about .mob-banner{
+    display: none;
+}
+.banner-about .desk-banner{
+    display: block;
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .banner-about .mob-banner{
+        display: block;
+    }
+    .banner-about .desk-banner{
+        display: none;
+    }
+}

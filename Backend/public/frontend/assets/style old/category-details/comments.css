@@ -1,0 +1,101 @@
+.comments-section{
+    padding: 20px 0px 30px 0px;
+}
+.comments-section .comment-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;    
+    position: relative;
+    text-transform: uppercase;
+}
+
+.comments-section .comment-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    top: 25px;
+    left: -10px;
+    width: 81px;
+    height: 2px;
+    background: #fc8c1a;
+}
+.comments-section .review-btn{
+    color: #000;
+    font-weight: 500;
+    border: 1px solid #838383;
+    border-radius: 0px;
+    float: right;
+}
+.comments-section .review-btn:hover{
+    border: 1px solid #838383;
+}
+
+.comments-section .comment-box{
+    padding: 15px 30px;
+    border-bottom: 1px solid #707070;
+}
+.comments-section .comment-box .img-div .person-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #fc8c1a;
+    margin-right: 20px;
+}
+.comments-section .comment-box .content-div .date{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.comments-section .comment-box .content-div .name{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+.comments-section .comment-box .content-div .star-img{
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
+    margin-right: 2px;
+}
+.comments-section .comment-box .content-div .review-p{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+
+@media (min-width:0px) and (max-width:768px){
+    .comments-section .comment-title {
+        font-size: 14px;
+    }
+    .comments-section .comment-title::after {
+        bottom: -5px;
+        top: 22px;
+        left: -6px;
+    }
+    .comments-section .comment-title::after {
+        bottom: -5px;
+        top: 22px;
+        left: -6px;
+    }   
+    .comments-section .comment-box .content-div .name {
+        font-size: 14px;
+    }
+    .comments-section {
+        position: relative;
+    }
+    .comments-section .review-btn {
+        font-size: 12px;
+        float: unset;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .comments-section .comment-box .content-div .date {
+        font-size: 13px;
+    }
+    .comments-section .comment-box .content-div .review-p {
+        font-size: 12px;
+}
+}

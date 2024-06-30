@@ -1,0 +1,70 @@
+
+.category-banner .back-vdo-main .video-set{
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+}
+
+.category-banner .back-vdo-main {
+    position: relative;
+}
+
+.category-banner  .black-overlay {
+    background: linear-gradient(180deg,rgb(0 0 0 / 61%) 0%,#0000006e 100%);
+    height: 98%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 9;
+}
+.category-banner .banner-title {
+    font-weight: normal;
+    font-size: 45px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+.category-banner .banner-title-here{
+    font-weight: normal;
+    font-size: 45px;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+.category-banner  .banner-title-search{
+    font-weight: 700;
+    font-size: 68px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (min-width:0px) and (max-width:768px){
+    .category-banner .back-vdo-main .video-set {
+        height: 200px;
+    }
+    .category-banner .banner-title {
+        font-size: 25px;
+    } 
+    .category-banner .banner-title-here {
+        font-size: 25px;
+    }   
+    .category-banner  .banner-title-search {
+        font-size: 35px;
+    }
+    .category-banner  .black-overlay {
+        height: 97%;
+    }   
+
+}

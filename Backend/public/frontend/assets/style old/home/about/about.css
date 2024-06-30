@@ -1,0 +1,102 @@
+.aboutus-section {
+    background-color:  #eee;
+    padding: 200px 50px 130px 50px;
+    margin: -64px 0px 0px 0px;
+    position: relative;
+}
+
+
+.aboutus-section .sec-1 .sec-title{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 35px;
+    color: #000;
+    position: relative;
+}
+
+/* .aboutus-section .sec-1 .sec-title::after{
+    content: "";
+    width: 38px;
+    height: 5px;
+    background: linear-gradient(#fc9118 0%, #fc582e 39.32%, #fc592d 82.01%, #fc7c1f 100%);    
+   position: absolute;
+   top: -15px;
+   left: 0px;
+} */
+.aboutus-section .sec-1  .sub-title{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+
+.aboutus-section .sec-1 .cont-p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+}
+
+.aboutus-section .sec-1  .explore-btn{
+    background: #2eb0d1;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 25px;
+}
+.aboutus-section .sec-1  .explore-btn .next-fafa{
+    padding: 0px 0px 0px 25px;    
+}
+.aboutus-section .sec-2 .about-img{
+    width: 100%;
+    transition: transform .4s;
+    border-radius: 35px;
+}
+.aboutus-section .sec-2:hover .about-img{
+    transform: scale(1.1);
+}
+
+.aboutus-section .sec-2 {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 35px;
+
+}
+
+
+@media (min-width:0px) and (max-width:768px) {
+    .aboutus-section {
+        padding: 50px 10px 50px 10px;
+        margin: -6px 0px 0px 0px;
+}
+.aboutus-section .sec-1 .sec-title {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.aboutus-section .sec-1  .sub-title {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.aboutus-section .sec-1 .cont-p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.aboutus-section .sec-1  .explore-btn {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.aboutus-section .sec-1  .explore-btn .next-fafa {
+    padding: 0px 0px 0px 5px;
+}
+}
+
+@media (min-width:769px) and (max-width:1400px) {
+    .aboutus-section .sec-1 .sec-title {
+        font-size: 30px;
+    }
+    .aboutus-section .sec-1 .cont-p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+

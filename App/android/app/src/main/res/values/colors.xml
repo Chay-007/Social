@@ -1,0 +1,4 @@
+<resources>
+    <!-- Format is #AARRGGBB -->
+    <color name="colorAccent">#000000</color>
+</resources>

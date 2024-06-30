@@ -1,0 +1,169 @@
+.footer-section {
+    background-color: #2eb0d1;
+    padding: 40px 0px 10px 0px;
+    position: relative;
+}
+
+.footer-section .footer-logo {
+    width: 149px;
+    height: auto;
+}
+
+.footer-section .links-div .title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 2px;
+    color: #fff;
+    margin-bottom: 0px;
+    width: fit-content;
+    position: relative;
+    transition: 0.3s ease-in-out 0s;
+}
+
+.footer-section .links-div .title::after {
+    content: "";
+    display: block;
+    left: 50%;
+    transition: 0.3s ease-in-out 0s;
+    width: 0;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    bottom: 25px;
+    width: 0%;
+    left: 0;
+    transition: 0.3s ease-in-out 0s;
+}
+
+.footer-section .links-div .title::before {
+    content: "";
+    display: block;
+    left: 50%;
+    transition: 0.3s ease-in-out 0s;
+    width: 0;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    top: 25px;
+    width: 0%;
+    left: 0;
+    transition: 0.3s ease-in-out 0s;
+}
+
+
+.footer-section .links-div .title:hover::after {
+    content: "";
+    display: block;
+    left: 0%;
+    right: 0;
+    transition: 0.3s ease-in-out 0s;
+    width: 0;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    bottom: 25px;
+    width: 100%;
+}
+
+.footer-section .links-div .title:hover::before {
+    content: "";
+    display: block;
+    left: 0%;
+    right: 0;
+    transition: 0.3s ease-in-out 0s;
+    width: 0;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    top: 25px;
+    width: 100%;
+}
+
+/* .footer-section .links-div .title:hover {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 2px;
+    width: fit-content;
+    transition: 0.3s ease-in-out 0s;
+} */
+
+.footer-section .links-div .menu-div {
+    margin-top: 20px;
+}
+
+.footer-section .links-div .menu-div2 {
+    margin-top: 40px;
+}
+
+.footer-section .links-div .menu-div .link-menus-space {
+    margin: 7px 0px;
+}
+
+.footer-section .links-div .menu-div .link-menus {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-section .links-div .menu-div .link-menus .slight-right {
+    margin-left: 0px;
+    transition: 0.4s;
+}
+
+.footer-section .links-div .menu-div .link-menus:hover .slight-right {
+    margin-left: 10px;
+    transition: 0.4s;
+}
+
+.footer-section .links-div .menu-div .link-menus .next-fafa {
+    font-size: 0px;
+}
+
+.footer-section .links-div .menu-div .link-menus:hover .next-fafa {
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-section .links-div .menu-div .contact-fafa {
+    color: #fff;
+    font-size: 15px;
+    width: 30px;
+}
+
+
+.footer-section .copyrights-div {
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-section .links-div:hover .location {
+    position: absolute;
+    display: block;
+    right: 11%;
+    top: 14%;
+}
+.footer-section .links-div .location {
+    display: none;
+}
+
+.footer-section .copyrights-div .copy-p {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 10px;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .footer-section {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+

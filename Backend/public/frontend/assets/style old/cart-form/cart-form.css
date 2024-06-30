@@ -1,0 +1,425 @@
+.step-form .form-section{
+    border: 1px solid #707070;
+    width: 100%;
+    border-radius: 7px;
+    padding: 4%;
+}
+/* .form1height{
+height: 500px;
+transition: 3s;
+}
+.form2height{
+    height: 230px;
+    transition: 3s;
+    -webkit-transition: height 1s ease-in-out;
+    transition: height 1s ease-in-out;
+} */
+.form3height{
+    
+}
+.form4height{
+    
+}
+
+.step-form .form-section .r-btn1[type=radio] {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.step-form .form-section .r-btn1:checked{
+    background-color: black;
+}
+
+.step-form .form-section .r-btn2[type=radio] {   
+    border: 1px solid black;    
+    margin-left: 5px;
+}
+.step-form .form-section .r-btn2:checked{
+    background-color: black;
+}
+.step-form .form-section .lable-set {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 5px 5px 5px;
+}
+
+.step-form .form-section .flex-div-width {
+width:80%;
+}
+.step-form .form-section .flex-div-width .radio-input{
+    font-size: 13px;
+    border: 0px;
+    padding: 5px;
+    margin: 0px 0px 0px 15px;
+    color: black;
+    border: 1px solid #ccc;
+}
+.step-form .form-section .flex-div-width .radio-input:focus{
+    box-shadow: none;
+}
+.step-form .form-section .new-address .formset{
+    font-size: 13px;
+    border: 0px;
+    padding: 8px 8px 8px 20px;
+    margin: 0px 0px 0px 15px;
+    color: black;    
+    background-color: #f1f1f1;
+}
+
+.step-form .form-section .new-address .formset:focus{
+    box-shadow: none;
+}
+
+.step-form .form-section .new-address::placeholder{
+    color: #A2A2A2;
+}
+
+.step-form .form-section .prev-btn-set{
+    background-color: #B7B7B7;
+    color: white;
+    font-size: 14px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin: 5% 2% 0% 0%;
+    float: right;
+}
+.step-form .form-section .next-btn-set{
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin: 5% 2% 0% 0%;
+    float: right;
+   
+}
+
+.step-form .form-section .star-color{
+    color: red;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+.step-form .form-section .third-form h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.step-form .form-section .fourth-form .table-div .table {
+background-color: white;
+}
+
+.step-form .form-section .fourth-form .table-div .table thead td{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+.step-form .form-section .fourth-form .table-div .table tbody td{
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+.step-form .form-section .fourth-form .price-div .table{
+    background-color: #F3F3F3;
+}
+
+.step-form .form-section .fourth-form .price-div .table td{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px;
+}
+.step-form .form-section .fourth-form .price-div .table .table-right-bd{
+    border-right:1px solid  #DBDBDB;
+}
+
+
+
+
+
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
+    padding: 0px;
+}
+
+/* #progressbar li {
+    list-style-type: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+} */
+
+
+
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1;
+  
+}
+
+#progressbar li:first-child:after {
+ 
+    content: none;
+}
+
+/* #progressbar li.active:before,
+#progressbar li.active:after {
+    background: #27AE60;
+    color: white;
+}    */
+
+ #progressbar li.active:before, #progressbar li.active:after {
+    background: black;
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: #ccc;
+    font-size: 15px;
+    width: 22.33%;
+    float: left;
+    text-align: left;
+    font-weight: 500;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 4px solid #ccc;
+}
+
+#progressbar .active{
+    border-bottom: 4px solid #F05340;
+    color: #000;
+    font-weight: 600;
+}
+#progressbar .tab-menu:active:after{
+    border-bottom: 2px solid #000;
+}
+
+#progressbar li:before {    
+    display: none;
+     content: counter(step);
+    counter-increment: step; 
+    width: 40px;
+    line-height: 25px;
+    display: block;
+    font-size: 0px;
+    color: #fff;
+    background: #fff;
+    border-radius: 3px;
+    margin: 0px auto 5px auto;
+}
+#progressbar li.active:before, #progressbar li.active:after {
+    background: transparent;
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.step-form .form-section .tab-menu:before {
+    font-size: 20px;
+}
+
+.first-form .bd-right{
+    border-right:1px solid #707070;
+}
+.payment-box{
+    height: 210px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+.payment-box .payment-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.payment-img{
+    width: auto;
+    height: 60%;
+}
+.payment-img-div{
+    width: 132px;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 15px;
+    align-items: center;
+}
+
+.mapouter{
+    position:relative;
+    top: 22%;
+    text-align:right;
+    width:200px;
+    height:120px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:200px;
+    height:120px;
+}
+.gmap_iframe {
+    width:200px!important;
+    height:120px!important;
+}
+  
+  
+
+
+@media (max-width:575px){
+    .step-form .form-section .flex-div-width {
+        width: 85%;
+    }
+    .step-form .form-section .new-address .formset {
+        margin: 5px 0px 0px 0px;
+    }
+    .step-form .form-section .third-form h2 {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .step-form .form-section .next-btn-set {
+        font-size: 12px;
+        padding: 5px 20px;
+        margin: 5% 2% 0% 0%;
+
+    }
+    .step-form .form-section .prev-btn-set {
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .step-form .form-section .fourth-form .table-div .table thead td {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .step-form .form-section .fourth-form .table-div .table tbody td {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .step-form .form-section .fourth-form .price-div .table td {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px;
+    }
+    .first-form .bd-right {
+        border-right: 0px solid #707070;
+    }
+    .gmap_canvas {
+        width: 200px;
+        height: 90px;
+    }
+    .cart-second-sec .apply-coupon-btn, .cart-second-sec .apply-coupon-btn:hover {
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 8px 5px;
+    }
+    .payment-box .payment-title {
+        font-size: 15px;
+    }
+    .step-form .form-section .third-form h2 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .step-form .form-section .lable-set {
+        font-size: 12px;
+    }
+    .cart-main .table-data {
+        font-size: 12px;
+    }
+    .cart-main .table .table-title {
+        font-size: 12px;
+    }
+    .cart-second-sec .total-p {
+        font-size: 13px;
+    }
+    .cart-second-sec .coupon-p {
+        font-size: 13px;
+    }
+    .cart-second-sec .grand-total-p {
+        font-size: 15px;
+    }
+    .total-p-bold {
+        font-size: 14px;
+    }
+}
+@media (min-width:275px) and (max-width:319px){
+    #progressbar li {
+        font-size: 12px;
+        width: 41.33%;
+    }
+}
+
+@media (min-width:320px) and (max-width:484px){
+    #progressbar li {
+        font-size: 12px;
+        width: 40.33%;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    #progressbar li {
+        font-size: 12px;
+        width: 40.33%;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    #progressbar li {
+        font-size: 9px;
+        width: 17.33%;
+    }
+    .first-form .bd-right {
+        border-right: 0px solid #707070;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #progressbar li {
+        width: 21.33%;
+    }
+    .step-form .form-section .lable-set {
+        font-size: 11px;
+        margin: 5px 5px 5px 2px;
+    }
+    .payment-box .payment-title {
+        font-size: 15px;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+    .payment-box .payment-title {
+        font-size: 16px;
+    }
+    .step-form .form-section .lable-set {
+        font-size: 12px;
+    }
+}
+@media (min-width:1024px) and (max-width:1199px){
+    .payment-box .payment-title {
+        font-size: 16px;
+    }
+    .step-form .form-section .lable-set {
+        font-size: 12px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .gmap_canvas {
+        width: 185px;
+    }
+}
+

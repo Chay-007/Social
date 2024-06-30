@@ -1,0 +1,1259 @@
+
+.property-details-section .sec-1 .banner-div .banner{
+    width: 100%;
+}
+.property-details-section .sec-1 .search-div{
+    background-color: #ffffffd6;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+    border-radius: 50px;
+    margin: -20px 0px 0px 0px;
+}
+.property-details-section .sec-1 .search-div .select2-container {
+    width: 100% !important;
+}
+.property-details-section .sec-1 .search-div .select2-container--default .select2-selection--multiple {
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: text;
+    border-radius: 50px;
+}
+.property-details-section .sec-1 .search-div .select2-container .select2-selection--multiple {
+    min-height: 33px;
+    height: 25px;
+}
+.property-details-section .sec-1 .search-div .select2-container .select2-search--inline .select2-search__field {
+    margin: 0px 3px;
+    padding: 0;
+}
+.property-details-section .sec-1 .search-div .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    list-style: none;
+    font-size: 10px;
+    padding: 4px 12px !important;
+    color: #000 !important;
+    margin: 2px 0px 0px 0px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #ffffff;
+    color: black;
+    font-size: 12px;
+}
+.select2-results__option {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.select2-results__option:hover {
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    color: #DB0000 !important;
+}
+
+.property-details-section .sec-1 .search-div .form-group .input-div{
+    position: relative;
+}
+.property-details-section .sec-1 .search-div .form-group .input-div .form-control {
+    padding: 7px 12px;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+
+.property-details-section .sec-1 .search-div .form-group .search-icon-div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #003CA5;
+    height: 100%;
+    width: 50px;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.property-details-section .sec-1 .search-div .form-group .search-icon-div .searcfafa{
+    font-size: 22px !important;
+    color: #fff !important;
+}
+.property-details-section .sec-1 .discover-title-div{
+    margin: 20px 0px;
+}
+.property-details-section .sec-1 .discover-title-div .dis-h5{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.property-details-section .sec-1 .discover-title-div .select2-container {
+    width: 100% !important;
+}
+.property-details-section .sec-1 .discover-title-div .select2-container--default .select2-selection--multiple {
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: text;
+    border-radius: 25px;
+    font-size: 12px;
+    border: 1px solid #DB0000;
+}
+.property-details-section .sec-1 .discover-title-div .sort-p{
+    font-size: 12px;
+}
+.property-details-section .sec-1 .discover-title-div .form-www{
+    width: 80%;
+}
+
+.property-details-section .sec-1 .listing-div .list-card{
+    border: 1px solid #707070;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 240px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.property-details-section .sec-1 .listing-div .list-card .slide-img{
+    width: 100%;
+    height: 236px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.property-details-section .sec-1 .listing-div .owl-theme .owl-nav {
+    margin-top: 0px;
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    bottom: -18px;
+    left: 30%;
+}
+.property-details-section .sec-1 .listing-div .owl-theme .owl-dots {
+    display: none;
+}
+.property-details-section .sec-1 .listing-div .owl-theme .owl-nav img{
+    width: 25px;
+}
+
+.property-details-section .sec-1 .listing-div .owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+}
+.property-details-section .sec-1 .listing-div .content-sec .flat-area{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;    
+    margin-bottom: 5px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .address{
+    font-weight: normal;
+    font-size: 13px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .ruppes{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;  
+    margin-bottom: 2px;
+    font-family: Roboto;   
+}
+.property-details-section .sec-1 .listing-div .content-sec .sqft{
+    font-weight: 500;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0px;
+    font-family: Roboto;
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .compass-img{
+    width: 12px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .facingg-p{
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .get-owner-btn {
+    border-radius: 15px;
+    background: #db0000;
+    border: 1px solid #db0000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    /* margin-top: 29px; */
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .nav-link {
+    border: 1px solid #db0000;
+    background-color: #fff;
+    margin: 0px 0px 0px 15px;
+    padding: 3px 5px;
+    width: 35px;
+    position: relative;
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .nav-link img{
+    height: 18px;
+    width: auto;
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .nav-link .heartfafa{
+    /* border: 1px solid #000; */
+    color: #000;
+}
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .shortlist.active .heartfafa{
+    /* border: 1px solid #000; */
+    color: #fff;
+}
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div  .shortlist.active{
+    background-color: #db0000 !important;
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv{
+    margin-top: 25px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .shortlist .shortlistppp {
+    display: none;
+}
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .shortlist:hover .shortlistppp {
+    position: absolute;
+    font-size: 9px;
+    top: 25px;
+    left: 0px;
+    padding: 0px 2px;
+    color: #000;
+    background: #c2d9ff;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .view-propp{
+    position: relative;
+    width: 100%;
+}
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div{
+    position: absolute;
+    right: 0px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div img{
+    width: 15px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div .small-circcc{
+    position: relative;
+}
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div .small-circcc .dottt {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #000;
+    top: 19px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div .small-circcc:hover .dottt {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #db0000;
+    top: 21px;
+    left: 2px;
+    transition: 0.3s;
+}
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div .small-circcc .propp-vie {
+    position: absolute;
+    top: 0px;
+    width: 120px;
+    left: -127px;
+    background: #c2d9ff;
+    border:1px solid #ccc;
+    padding: 0px 3px;
+    display: none;
+}
+
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div .small-circcc:hover .propp-vie {
+   display: block;
+}
+
+
+.property-details-section .sec-1 .listing-div .content-sec .view-propp .icooo-div .small-circcc .propp-vie p{
+    margin-bottom: 0px;
+    font-size: 9px;
+    color: #000;
+}
+.property-details-section  .more-prop-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    margin: 20px 0px 45px 0px;
+}
+
+
+.property-details-section .more-propertydiv  .slider-div{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: auto;
+    /* position: relative; */
+}
+
+  .property-details-section .more-propertydiv .slider-div .slide-img {
+    padding: 5px 20px;
+    width: 100%;
+    margin: auto;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center bottom;
+}
+
+.property-details-section .more-propertydiv .slider-div .slide-img:hover {
+    transform: scale(1.05) translateY(-10px); /* Adjust the values for a larger zoom and more upward movement */
+}
+
+  
+
+
+.property-details-section .more-propertydiv  .owl-carousel .owl-stage-outer {
+    padding: 30px 0px;
+    transition: 0.4s;
+}
+.property-details-section .more-propertydiv  .contact-btn-div {
+    background-color: #E2EDFF;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+.property-details-section .more-propertydiv .contact-btn-div{
+    text-align: center;
+}
+.property-details-section .more-propertydiv .contact-btn-div  .flatadd{
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.property-details-section .more-propertydiv .contact-btn-div  .contact-btn{
+    background: #db0000;
+    border: 1px solid #db0000;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin: 0px 0px -25px 0px;
+}
+
+/* right sec sec-2 css start */
+.crown
+{
+    width: 15px;
+    margin-left: 39%;
+}
+.property-details-section .sec-2 .tabs {
+    padding: 0px 13px 5px 46px;
+    background: #E2EDFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 3px #00000021;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+}
+.property-details-section .sec-2 .tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: #DB0000;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    /* padding: 5px 50px; */
+    width: 90%;
+    font-size: 15px;
+}
+
+.property-details-section .sec-2 .tabs .nav-pills .nav-link {
+    background-color: fff;
+    border-radius: 25px;
+    border: 1px solid #707070;
+    color: #000;
+    width: 90%;
+    font-size: 15px;
+}
+
+
+.property-details-section .sec-2 .tab-description .tab-design
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 0px 10px -2px 10px;
+opacity: 1;
+padding: 13px 25px;
+height: 100%;
+min-height: 769px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .reset-icon
+{
+    color: #003A9F;
+}
+
+
+.property-details-section .sec-2 .tab-description .tab-design .types-text
+{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0px;
+}
+.property-details-section .sec-2 .tab-description .tab-design a.nav-link {
+   
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #DB0000;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: black;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: #DB0000;
+        color: white;
+        border-radius: 25px;
+        border: 1px solid #707070;
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+}
+
+.property-details-section .sec-2 .tab-description .tab-design li.nav-item {
+    margin: 7px 20px 7px 0px;
+}
+
+
+.property-details-section .sec-2 .tab-description .tab-design .form-check-input[type=checkbox] {
+    border-radius: 1px;
+    border: 1px solid #656565;
+    margin-right: 17px;
+}
+
+.property-details-section .sec-2 .tab-description .tab-design .form-check-label {
+    color: #8B8B8B;
+    font-size: 13px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .form-check-input:checked {
+    background-color: #DB0000;
+    border: 1px solid #DB0000;
+}
+.property-details-section .sec-2 .tab-description .tab-design .form-check-input:focus
+{
+    box-shadow: none;
+}
+.property-details-section .sec-2 .tab-description .tab-design .title-text
+{
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+}
+.property-details-section .sec-2 .tab-description .tab-design label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+
+.property-details-section .sec-2  .double-rangebar .wrapper {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    /* padding: 50px 40px 20px 40px; */
+    border-radius: 10px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar .container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top: 13px;
+    bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar .slider-track {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"]::-moz-range-track {
+    -moz-appearance: none;
+    height: 5px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"]::-ms-track {
+    appearance: none;
+    height: 5px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    background-color: #DB0000;
+    cursor: pointer;
+    margin-top: -9px;
+    pointer-events: auto;
+    border-radius: 50%;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #DB0000;
+    pointer-events: auto;
+    border: none;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"]::-ms-thumb {
+    appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #DB0000;
+    pointer-events: auto;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar input[type="range"]:active::-webkit-slider-thumb {
+    background-color: #ffffff;
+    border: 1px solid #DB0000;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar .values {
+    /* background-color: #F5770A; */
+    width: 100%;
+    position: relative;
+    bottom: 15px;
+    margin: auto;
+    padding: 0px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 10px;
+    color: #000;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar .values #range1 {
+    position: absolute;
+    left: 17px;
+    background-color: #C9DDFF;
+    padding: 3px 5px;
+    border-radius: 0px;
+    top: 10px;
+  }
+  .property-details-section .sec-2  .double-rangebar .values #range3 {
+    position: absolute;
+    left: 17px;
+    background-color: #C9DDFF;
+    padding: 3px 5px;
+    border-radius: 0px;
+    top: 10px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar .values #range2 {
+    position: absolute;
+    right: -11px;
+    background-color: #C9DDFF;
+    padding: 3px 5px;
+    border-radius: 0px;
+    top: 10px;
+  }
+  .property-details-section .sec-2  .double-rangebar .values #range4 {
+    position: absolute;
+    right: -11px;
+    background-color: #C9DDFF;
+    padding: 3px 5px;
+    border-radius: 0px;
+    top: 10px;
+  }
+  
+  .property-details-section .sec-2  .double-rangebar .values:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    /* border-top: 15px solid  #F5770A;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent; */
+    margin: auto;
+    bottom: -14px;
+    left: 0;
+    right: 0;
+  }
+  .property-details-section .sec-2  .slider-track {
+    
+    background: linear-gradient(to right, rgb(218, 218, 229) 0%, rgb(219, 0, 0) 0%, rgb(219, 0, 0) 70%, rgb(218, 218, 229) 70%);
+}
+.property-details-section .sec-2  input#slider-2 {
+    font-size: 7px;
+}
+.property-details-section .sec-2  input#slider-1 {
+    font-size: 7px;
+}
+
+
+.property-details-section .sec-2 .tab-description .tab-design .popularity-text
+{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+
+.property-details-section .sec-2 .tab-description .tab-design .form-check-input:checked[type=radio] {
+    border: 1px solid black;
+    background: radial-gradient(circle, black 0%, black 44%, white 59%, white 100%);
+}
+.property-details-section .sec-2 .tab-description .tab-design .furnish-text .form-check-label {
+    color: black;
+    font-size: 13px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .property-type-text .form-check-label {
+    color: black;
+    font-size: 13px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .form-control-sm {
+border-radius: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    width: 55%;
+    padding-left: 0px;
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .parking-text .form-check-label {
+    color: black;
+    font-size: 13px;
+}
+
+
+/* second-tab css */
+.property-details-section .sec-2 .tab-description .tab-design .age-text .form-check-label {
+    color: black;
+    font-size: 13px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .age-text p
+{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.property-details-section .sec-2 .tab-description .tab-design .click-btn
+{
+    background-color: #C9DDFF;
+    border: 1px solid #707070;
+    padding: 7px 20px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* .property-details-section .sec-2 .tab-description .tab-design .click-btn:active
+{
+    background-color: #C9DDFF;
+    border: 1px solid #707070;
+    padding: 7px 20px;
+} */
+.property-details-section .sec-2 .tab-description .tab-design .click-btn-two
+{
+    background-color: #C9DDFF;
+    border: 1px solid #707070;
+    padding: 7px 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.property-details-section .sec-2 .tab-description .tab-design  .bathroom-text .form-check-label {
+    color: black;
+    font-size: 13px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .bathroom-text .form-check-input:checked[type=radio] {
+    border: 1px silid black !important;
+    background-color: black;
+}
+.property-details-section .sec-2 .tab-description .tab-design .bathroom-text p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.property-details-section .sec-2 .tab-description .tab-design  .remove .form-check-label {
+    color: black;
+    font-size: 13px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .floor-text
+{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+
+/* model css */
+.property-details-section .sec-2 .popup-content {
+    display: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 20px;
+    margin-top: 20px;
+    height: 100%;
+    min-height: 729px;
+  }
+  .property-details-section .sec-2 .popup-content span{
+    font-size: 12px;
+  }
+
+  .property-details-section .sec-2 .popup-content .scroll-text
+  {
+    color: #DB0000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .property-details-section .sec-2 .popup-content .smart-text
+  {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .property-details-section .sec-2 .popup-content .fast-text
+  {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .property-details-section .sec-2 .popup-content .unlock-btn
+  {
+    border: 1px solid #003CA5;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin: 15px;
+  }
+  .property-details-section .sec-2 .popup-content .lock-icon
+  {
+    color: #003CA5;
+    font-size: 14px;
+  }
+
+
+ /* owl-carousel left right btn css */
+  .property-details-section .more-propertydiv .moreproperty-slider .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: inline-block;
+}
+.property-details-section .more-propertydiv .moreproperty-slider button.owl-prev {
+    position: absolute;
+    top: 42%;
+    left: -3%;
+}
+.property-details-section .more-propertydiv .moreproperty-slider button.owl-next {
+    position: absolute;
+    right: -3%;
+    top: 42%;
+}
+.property-details-section .more-propertydiv .moreproperty-slider button.owl-next img {
+    width: 25px;
+}
+.property-details-section .more-propertydiv .moreproperty-slider button.owl-prev img{
+    width: 25px;
+}
+ .owl-theme .owl-dots {
+    display: none !important;
+}
+
+
+/* last sec img css */
+.property-details-section  .bottom-sec .loan-img-sec .loan-img
+{
+    width:100%;
+}
+.property-details-section  .bottom-sec .loan-img-sec
+{
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+padding: 15px 37px;
+}
+
+
+
+
+/* media query start */
+@media (min-width: 0px) and (max-width: 320px)
+{
+    .property-details-section .sec-1 .listing-div .owl-theme .owl-nav {
+        left: 35%;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .address {
+        font-size: 10px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .flat-area {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .ruppes {
+        font-size: 12px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .sqft {
+        font-size: 10px;
+    }
+    .property-details-section .sec-1 .banner-div .banner {
+        height: 150px;
+    }
+    .property-details-section .sec-1 .search-div .form-group .input-div .form-control {
+        font-size: 10px;
+    }
+    .property-details-section .sec-1 .search-div .select2-container .select2-selection--multiple {
+        min-height: 31px;
+    }
+    .property-details-section .sec-1 .discover-title-div .dis-h5 {
+        font-size: 18px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .facingg-p {
+        font-size: 7px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .nav-link {
+        width: 30px;
+        height: 28px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .btnn-divv .get-owner-btn {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design a.nav-link {
+
+        padding: 5px 15px;
+        font-size: 10px;
+    
+        &:active,
+        &:focus,
+        &:hover {
+            font-size: 10px;
+            padding: 5px 15px;
+        }
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-check-input[type=checkbox] {
+        width: 15px;
+        height: 15px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .title-text {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .furnish-text .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .property-type-text .form-check-label {
+        font-size: 12px;
+    }
+
+.property-details-section .sec-2 .tab-description .tab-design .form-control-sm {
+    font-size: 10px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .parking-text .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .age-text p {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .age-text .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .bathroom-text .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .bathroom-text p {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .remove .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .floor-text {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .click-btn {
+    padding: 7px 12px;
+    
+    font-size: 10px;
+    
+}
+.property-details-section .sec-2 .tab-description .tab-design .click-btn-two {
+    font-size: 10px;
+}
+.property-details-section .sec-2 .popup-content .scroll-text {
+    font-size: 15px;
+}
+.property-details-section .sec-2 .popup-content .smart-text {
+    font-size: 17px;
+}
+.property-details-section .sec-2 .popup-content .fast-text {
+    font-size: 10px;
+}
+.property-details-section .sec-2 .popup-content span {
+    font-size: 9px;
+}
+.property-details-section .more-propertydiv .moreproperty-slider .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+}
+
+
+
+@media (min-width: 321px) and (max-width: 575px)
+{    .property-details-section .sec-1 .listing-div .owl-theme .owl-nav {
+    left: 38%;
+}
+.property-details-section .sec-1 .listing-div .content-sec .flat-area {
+    font-size: 14px;
+    margin-top: 25px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .address {
+    font-size: 10px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .ruppes {
+    font-size: 12px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .sqft {
+    font-size: 10px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .facingg-p {
+    font-size: 7px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .nav-link {
+    width: 30px;
+    height: 28px;
+}
+.property-details-section .sec-1 .listing-div .content-sec .btnn-divv .get-owner-btn {
+    font-size: 10px;
+}
+    .property-details-section .sec-1 .banner-div .banner {
+        height: 200px;
+    }
+    .property-details-section .sec-1 .search-div .form-group .input-div .form-control {
+        font-size: 10px;
+    }
+    .property-details-section .sec-1 .search-div .select2-container .select2-selection--multiple {
+        min-height: 31px;
+    }
+    .property-details-section .sec-1 .discover-title-div .dis-h5 {
+        font-size: 18px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design a.nav-link {
+
+        padding: 5px 15px;
+        font-size: 10px;
+    
+        &:active,
+        &:focus,
+        &:hover {
+            font-size: 10px;
+            padding: 5px 15px;
+        }
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-check-input[type=checkbox] {
+        width: 15px;
+        height: 15px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .title-text {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .furnish-text .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .property-type-text .form-check-label {
+        font-size: 12px;
+    }
+
+.property-details-section .sec-2 .tab-description .tab-design .form-control-sm {
+    font-size: 10px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .parking-text .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .age-text p {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .age-text .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .bathroom-text .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .bathroom-text p {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .remove .form-check-label {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .floor-text {
+    font-size: 12px;
+}
+.property-details-section .sec-2 .tab-description .tab-design .click-btn {
+    padding: 7px 12px;
+    
+    font-size: 10px;
+    
+}
+.property-details-section .sec-2 .tab-description .tab-design .click-btn-two {
+    font-size: 10px;
+}
+.property-details-section .sec-2 .popup-content .scroll-text {
+    font-size: 15px;
+}
+.property-details-section .sec-2 .popup-content .smart-text {
+    font-size: 17px;
+}
+.property-details-section .sec-2 .popup-content .fast-text {
+    font-size: 10px;
+}
+.property-details-section .sec-2 .popup-content span {
+    font-size: 10px;
+}
+.property-details-section .more-propertydiv .moreproperty-slider .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+}
+@media (min-width: 576px) and (max-width: 768px)
+{
+
+    .property-details-section .sec-1 .listing-div .owl-theme .owl-nav {
+        left: 40%;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .flat-area {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .address {
+        font-size: 10px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .ruppes {
+        font-size: 12px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .sqft {
+        font-size: 10px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .facingg-p {
+        font-size: 9px;
+    }
+    .property-details-section .sec-1 .banner-div .banner {
+        height: 200px;
+    }
+    .property-details-section .sec-1 .search-div .form-group .input-div .form-control {
+        font-size: 10px;
+    }
+    .property-details-section .sec-1 .search-div .select2-container .select2-selection--multiple {
+        min-height: 31px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .btnn-divv .shortlist-div .nav-link {
+        width: 30px;
+        height: 28px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .btnn-divv .get-owner-btn {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design a.nav-link {
+
+        padding: 5px 15px;
+        font-size: 10px;
+    
+        &:active,
+        &:focus,
+        &:hover {
+            font-size: 10px;
+            padding: 5px 15px;
+        }
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-check-input[type=checkbox] {
+        width: 15px;
+        height: 15px;
+    }.property-details-section .sec-2 .tab-description .tab-design label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .title-text {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .furnish-text .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .property-type-text .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-control-sm {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .parking-text .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .age-text p {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .age-text .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .bathroom-text .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .bathroom-text p {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .remove .form-check-label {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .floor-text {
+        font-size: 12px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .click-btn {
+        padding: 7px 12px;
+        
+        font-size: 10px;
+        
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .click-btn-two {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .popup-content .scroll-text {
+        font-size: 15px;
+    }
+    .property-details-section .sec-2 .popup-content .smart-text {
+        font-size: 17px;
+    }
+    .property-details-section .sec-2 .popup-content .fast-text {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .popup-content span {
+        font-size: 10px;
+    }
+    .property-details-section .more-propertydiv .moreproperty-slider .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+        display: none;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px)
+{
+    .property-details-section .sec-1 .listing-div .owl-theme .owl-nav {
+        left: 43%;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .flat-area {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px)
+{
+
+
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 10px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design .form-check-input[type=checkbox] {
+        margin-right: 2px;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design {
+        min-height: 792px;
+    }
+    .property-details-section .more-propertydiv .moreproperty-slider button.owl-next {
+        right: -4%;
+    }
+    .property-details-section .more-propertydiv .moreproperty-slider button.owl-prev {
+        left: -4%;
+    }
+    .property-details-section .sec-2 .tab-description .tab-design a.nav-link {
+
+        padding: 5px 15px;
+        font-size: 10px;
+    
+        &:active,
+        &:focus,
+        &:hover {
+            font-size: 10px;
+            padding: 5px 15px;
+        }
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .flat-area {
+        font-size: 16px;
+    }
+    .property-details-section .sec-1 .listing-div .content-sec .ruppes {
+        font-size: 13px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1400px)
+{
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link {
+        font-size: 13px;
+    }
+    .property-details-section .sec-2 .tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 13px;
+    }
+    .property-details-section .sec-1 .listing-div .list-card .slide-img {
+        height: 249px;
+    }
+}

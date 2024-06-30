@@ -1,0 +1,362 @@
+.best-property-section{
+    padding: 50px 0px;
+}
+.best-property-section .sec-1 .img-div .bgimg{
+    width: 100%;
+    height: auto;
+    transition: 0.4s;
+}
+.best-property-section .sec-1 .img-div{
+   overflow: hidden;
+   box-sizing: border-box;
+}
+.best-property-section .sec-1 .img-div:hover .bgimg{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.best-property-section .sec-2{
+    position: relative;
+    top: 25px;
+}
+.best-property-section .sec-2 .cont-box {
+    padding: 20px;
+    width: 120%;
+    position: absolute;
+    right: 0px;
+    z-index: 999;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 22px #0000000F;
+}
+.best-property-section .sec-2 .cont-box .contt{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    line-height: 2;
+    width: 70%;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div {
+    width: 100%;
+    height: 100%;
+    min-height: 138px;
+    padding: 12px;
+    border: 1px solid  #fff8f8;
+    background: #FFF8F8 ;
+    box-shadow: 0px 3px 18px #FFD8D8DB;
+    border-radius: 5px;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div:hover{
+    width: 100%;
+    height: 100%;
+    min-height: 138px;
+    border-radius: 5px;
+    background: #fff8f8;   
+    box-shadow: 0px 3px 18px rgba(255, 216, 216, 0.86);
+    padding: 12px;
+    border:1px solid #db0000;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .over-p{
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .million{
+    font-weight: 600;
+    font-size: 40px;
+    color: #db0000;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div:hover .million{
+    color: #000;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .prop-p{
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.best-property-section .sec-2 .cont-box .over-div-main{
+    margin: 25px 0px -55px 0px;
+}
+
+.best-property-section .build-over{
+    position: relative;
+    text-align: center;
+}
+.best-property-section .build-over .build-img1{
+    width: 100%;
+}
+.best-property-section .build-over .withbest-overlay {
+    position: absolute;
+    width: 100%;
+    top: 43%;
+    z-index: 1;
+}
+.best-property-section .build-over .withbest-overlay .sub-tt{
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 12px;
+    color: #db0000;
+    margin-bottom: 10px;
+}
+.best-property-section .build-over .withbest-overlay .main-tt{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+.best-property-section .build-over .withbest-overlay .specialization{
+
+}
+
+.best-property-section .build-over .withbest-overlay .specialization .special-div {
+    padding: 20px 17px;
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px #0000000F;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .img-div{
+    width: 54px;
+    height: 54px;
+    background: #fff;
+    filter: drop-shadow(0px 3px 12px rgba(0, 60, 165, 0.09));
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: -40px 0px 0px 0px;
+    box-shadow: 0px 4px 5px 0px #adb5bd;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .img-div .iccc{
+    width: 25px;
+    height: auto;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-tt{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    text-align: start;
+    margin: 15px 0px;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-pppp{
+    font-weight: normal;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+    text-align: start;
+}
+.best-property-section .build-over .withbest-overlay .specialization {
+    margin-top:80px;
+}
+
+
+
+
+.best-property-section .elevate-projects {
+    position: relative;
+    text-align: center;
+}
+
+.best-property-section .elevate-projects .build-img2{
+    width: 100%;
+}
+.best-property-section .elevate-projects .elevate-banner-over {
+    position: absolute;
+    top: 20%;
+}
+
+.best-property-section .elevate-projects .elevate-banner-over .elevate-img{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width:767.98px){
+    .best-property-section {
+        padding: 25px 0px;
+    }
+    .best-property-section .sec-2 .cont-box {
+        padding: 15px;
+        width: 100%;
+        position: unset;
+    }
+    .best-property-section .sec-2 .cont-box .contt {
+        font-size: 20px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    .best-property-section .sec-2 .cont-box .over-div-main .over-div {
+        padding: 9px;
+        margin-bottom: 20px;
+    }
+    .best-property-section .sec-2 .cont-box .over-div-main .over-div .million {
+        font-size: 30px;
+    }
+    .best-property-section .sec-2 .cont-box .over-div-main {
+        margin: 25px 0px 0px 0px;
+    }
+    .best-property-section .build-over .withbest-overlay {
+        position: unset;
+    }
+    .best-property-section .build-over .withbest-overlay .main-tt {
+        font-size: 18px;
+    }
+    .best-property-section .build-over .withbest-overlay .specialization {
+        margin-top: 40px;
+    }
+ 
+    .best-property-section .build-over .build-img1 {
+        display: none;
+    }
+    .best-property-section .build-over {
+        top: 60px;
+}
+.best-property-section .elevate-projects .elevate-banner-over {
+    position: unset;
+}
+.best-property-section .elevate-projects .build-img2 {
+    display: none;
+}
+.best-property-section .elevate-projects .elevate-banner-over .elevate-img {
+    width: 100%;
+    margin-top: 45px;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-tt {
+    font-size: 16px;
+    text-align: center;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-pppp {
+    font-size: 12px;
+    text-align: justify;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .img-div {
+    margin: -40px auto 0px auto;
+}
+}
+
+@media (min-width:769px) and (max-width:991px){
+    .best-property-section .sec-2 .cont-box .contt {
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+}
+
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .over-p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .million {
+    font-size: 20px;
+}
+
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-tt {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-pppp {
+    font-size: 12px;
+}
+
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .prop-p {
+    font-size: 12px;
+}
+
+.best-property-section .sec-2 .cont-box .over-div-main .over-div {
+    height: 110px;
+}
+.best-property-section .sec-2 .cont-box {
+    width: 100%;
+    position: unset;
+    margin-bottom: 35px;
+}
+.best-property-section .sec-2 .cont-box .over-div-main {
+    margin: 25px 0px 0px 0px;
+}
+.best-property-section .build-over .withbest-overlay {
+    top: 10%;
+}
+.best-property-section .build-over .withbest-overlay .main-tt {
+    font-size: 15px;
+}
+.best-property-section .elevate-projects .elevate-banner-over {
+    position: absolute;
+    top: 50%;
+}
+.steps-section .three-steps-slide .step-slide-div .content {
+    font-size: 12px;
+}
+.steps-section .three-steps-slide .step-slide-div .title-slide {
+    font-size: 16px;
+    margin: 8px 0px 5px 0px;
+}
+.best-property-section {
+    padding: 0px 0px 50px 0px;
+}
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    .best-property-section .sec-2 .cont-box .contt {
+        font-size: 15px;
+}
+
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .over-p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .million {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-tt {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-pppp {
+    font-size: 12px;
+}
+.best-property-section {
+    padding: 0px 0px;
+}
+.best-property-section .build-over .withbest-overlay {
+    top: 25%;
+}
+.best-property-section .build-over .withbest-overlay .main-tt {
+    font-size: 20px;
+}
+.best-property-section .elevate-projects .elevate-banner-over {
+    top: 15%;
+}
+.best-property-section .elevate-projects .elevate-banner-over .elevate-img {
+    width: 80%;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div .prop-p {
+    font-size: 12px;
+}
+.best-property-section .sec-2 .cont-box .over-div-main .over-div {
+    height: 120px;
+}
+}
+
+
+
+@media (min-width:1201px) and (max-width:1400px){
+    .best-property-section .sec-2 .cont-box .contt {
+        font-size: 20px;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-tt {
+    font-size: 18px;
+}
+.best-property-section .build-over .withbest-overlay .specialization .special-div .box-pppp {
+    font-size: 12px;
+}
+.best-property-section .build-over .withbest-overlay .main-tt {
+    font-size: 20px;
+}
+}

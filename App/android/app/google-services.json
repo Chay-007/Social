@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "939140522609",
+    "project_id": "social-b0e46",
+    "storage_bucket": "social-b0e46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939140522609:android:1ca13f89e3ae3af26bb1d0",
+        "android_client_info": {
+          "package_name": "com.profcymasolutions.social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939140522609-os27fltvbbfpmuuvr9speqpdt2l4j55q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.profcymasolutions.social",
+            "certificate_hash": "8f761b747de26805562e2b2050231a98958a8e22"
+          }
+        },
+        {
+          "client_id": "939140522609-t73fkq4eojim75umri9p1duif0nmv5uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhbPPHyia-M6Kb6-Azw_lMwBZ8uzpVYv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939140522609-t73fkq4eojim75umri9p1duif0nmv5uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
